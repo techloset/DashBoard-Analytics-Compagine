@@ -14,7 +14,7 @@ const SideBar = () => {
                 </div>
 
                 <div className=' xl:text-[35.4px] text-[#001dc0] xl:mt-[37px] xl:ml-[8px] '>
-                    <span className='font-Regular foont-[400]  xl:tracking-[0.35px]'> Ads </span>
+                    <span className='font-Regular font-[400]  xl:tracking-[0.35px]'> Ads </span>
                     <span className=' font-BOLD  font-[700] '> litics </span>
 
                 </div>

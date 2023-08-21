@@ -9,6 +9,10 @@ export default {
       boxShadow: {
         '3xl': ' 0px 27.1px 67.75px #0000000d',
       },
+      boxShadow: {
+        '2xs': ' 0px 20px 50px #dbe0f880',
+      },
+      
 
       fontFamily: { 
         Regular: ["REGULAR"],
