@@ -1,14 +1,12 @@
 import React from 'react'
-
-// import './index.css'
-import Header from './component/header/Header.jsx'
 import SideBar from './component/sideBar/SideBar.jsx'
+import Main from './pages/main/Main.jsx'
 
 const App = () => {
   return (
-    <div>
-      {/* <Header/> */}
-      <SideBar/>
+    <div className='flex'>
+      <SideBar />
+      <Main />
     </div>
   )
 }

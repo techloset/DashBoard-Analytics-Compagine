@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       boxShadow: {
-        '3xl': '1px 2.1px 26.75px ',
+        '3xl': ' 0px 27.1px 67.75px #0000000d',
       },
 
       fontFamily: { 

@@ -1,11 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
+// import React, { useState } from 'react'
+
 
 const SideBar = () => {
-    const [navbar, setNavbar] = useState(false)
+    // const [navbar, setNavbar] = useState(false)
     return (
-        <div className="xl:w-[266px] ">
+        <div className="xl:w-[266px] bg-blue-400">
 
-            <div className=' items-center flex bg-blue-200 xl:ml-[51px]  '>
+            <div className=' items-center flex  xl:ml-[51px]  '>
 
                 <div className=' xl:mt-[33px]'>
                     <img src="/images/icon.svg" alt="" />
@@ -144,7 +146,7 @@ const SideBar = () => {
 
 
 
-            <button onClick={() => setNavbar(!navbar)} class="md:hidden bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Button</button>
+            {/* <button onClick={() => setNavbar(!navbar)} class="md:hidden bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Button</button>
 
             {
                 navbar ? (
@@ -178,7 +180,7 @@ const SideBar = () => {
                 ) : (
                     <p></p>
                 )
-            }
+            } */}
 
 
         </div>
