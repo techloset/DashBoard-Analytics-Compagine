@@ -5,7 +5,7 @@ import React from 'react'
 const SideBar = () => {
     // const [navbar, setNavbar] = useState(false)
     return (
-        <div className="xl:w-[266px] bg-blue-400">
+        <div className="xl:w-[266px] ">
 
             <div className=' items-center flex  xl:ml-[51px]  '>
 

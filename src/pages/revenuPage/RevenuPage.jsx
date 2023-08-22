@@ -12,7 +12,7 @@ const RevenuPage = () => {
           <div className=' text-[16px] font-[400] '>Available to witdraw</div>
 
           <div className='xl:ml-[17px] xl:flex xl:items-center  xl:justify-center bg-[#f4f6f6] xl:w-[39px] xl:h-[15px] '>
-            <img src="/images/arrow-down.png" alt="" className='w-[10px] h-[10px] ' />
+            <img src="/images/arrowup.png" alt="" className='w-[10px] h-[10px] ' />
 
             <div className=' text-[12px] font-[400]  '>10.0%</div>
           </div >

@@ -3,10 +3,141 @@ import React from 'react'
 const Compaign = () => {
   return (
     <div className=' xl:w-[1082px] flex xl:mt-[30px] '>
-      <div className='xl:w-[759px] xl:h-[334px] bg-orange-500'> sales pannel </div>
 
 
-      {/* Top Countries */}
+{/* compaign performance pannel */}
+      <div className='xl:w-[759px] xl:h-[326px] '>
+
+        {/* heading */}
+
+        <div className='flex justify-between font-BOLD'>
+         
+          <div className='xl:text-[22.4px] font-[700] xl:mt-[30px] xl:ml-[30px]   '>Campaign Performance</div>
+         
+          <div className='flex justify-center items-center  xl:w-[80px] xl:h-[37px] bg-[#f6f6f6] xl:mt-[27px] xl:mr-[33px] '>
+            <p className='xl:text-[14px] font-[700]  '>See All</p>
+          </div>
+
+        </div>
+
+        {/* 2nd row */}
+        <div className=' font-Regular flex xl:text-[16px] font-[400] text-[#939393] '>
+         
+          <div className=' xl:ml-[30px] xl:mt-[27px] xl:mr-[183px] '>
+            <p>Campaign</p>
+          </div>
+
+          <div className='xl:mt-[27px] xl:mr-[59px]'>
+            <p>Impressions</p>
+          </div>
+
+          <div className='xl:mt-[27px] xl:mr-[64px]'>
+            <p>Clicks</p>
+          </div>
+
+          <div className='xl:mt-[27px] xl:mr-[94px]'>
+            <p>CPC</p>
+          </div>
+
+          <div className='xl:mt-[27px] xl:mr-[49px]'>
+            <p>Spend</p>
+          </div>
+
+        </div>
+
+        <img src="/images/Line-19.png" alt="" className='xl:w-[696px] xl:mt-[18px] xl:ml-[30px] xl:mr-[33px] '/>
+        {/* 3rd row */}
+
+        <div className='flex items-center  xl:text-[16px] font-[700] font-BOLD'>
+
+          <div className=' xl:ml-[38px] xl:mt-[20px] xl:mr-[16px] xl:w-[35px] xl:h-[35px] rounded-[17.5px] bg-[#253174] shadow-3xc flex justify-center items-center'>
+            <img src="/images/insta.svg" alt="" />
+          </div>
+
+          <div className='xl:mt-[28px] xl:mr-[137px] '>
+            <p className=''>Google Ads</p>
+          </div>
+
+          <div className='xl:mt-[28px] xl:mr-[97px]'>
+            <p >189k</p>
+          </div>
+
+          <div className='xl:mt-[28px] xl:mr-[74px]'>
+            <p>9k</p>
+          </div>
+
+          <div className='xl:mt-[28px] xl:mr-[62px]'>
+            <p>$8.12</p>
+          </div>
+
+          <div className='xl:mt-[28px] xl:mr-[49px]'>
+            <p>$56,123.12</p>
+          </div>
+        </div>
+
+        {/* tiktok */}
+
+        <div className='flex items-center  xl:text-[16px] font-[700] font-BOLD xl:my-[20px]'>
+
+          <div className=' xl:ml-[38px] xl:mt-[20px] xl:mr-[16px] xl:w-[35px] xl:h-[35px] rounded-[17.5px] bg-[#253174] shadow-3xc flex justify-center items-center'>
+            <img src="/images/tiktok.svg" alt="" />
+          </div>
+
+          <div className='xl:mt-[28px] xl:mr-[137px] '>
+            <p className=''>Google Ads</p>
+          </div>
+
+          <div className='xl:mt-[28px] xl:mr-[97px]'>
+            <p >189k</p>
+          </div>
+
+          <div className='xl:mt-[28px] xl:mr-[74px]'>
+            <p>9k</p>
+          </div>
+
+          <div className='xl:mt-[28px] xl:mr-[62px]'>
+            <p>$8.12</p>
+          </div>
+
+          <div className='xl:mt-[28px] xl:mr-[49px]'>
+            <p>$56,123.12</p>
+          </div>
+        </div>
+
+        {/* Insta */}
+
+        <div className='flex items-center  xl:text-[16px] font-[700] font-BOLD '>
+
+          <div className=' xl:ml-[38px] xl:mt-[20px] xl:mr-[16px] xl:w-[35px] xl:h-[35px] rounded-[17.5px] bg-[#253174] shadow-3xc flex justify-center items-center'>
+            <img src="/images/google.svg" alt="" />
+          </div>
+
+          <div className='xl:mt-[28px] xl:mr-[137px] '>
+            <p className=''>Google Ads</p>
+          </div>
+
+          <div className='xl:mt-[28px] xl:mr-[97px]'>
+            <p >189k</p>
+          </div>
+
+          <div className='xl:mt-[28px] xl:mr-[74px]'>
+            <p>9k</p>
+          </div>
+
+          <div className='xl:mt-[28px] xl:mr-[62px]'>
+            <p>$8.12</p>
+          </div>
+
+          <div className='xl:mt-[28px] xl:mr-[49px]'>
+            <p>$56,123.12</p>
+          </div>
+        </div>
+
+
+      </div>
+
+
+      {/* Top Countries  pannel*/}
       <div className='xl:h-[326px]  xl:w-[287px]  xl:ml-[36px] border-2 border-solid rounded-[20px] border-[#ecedf6] shadow-2xs'>
 
         {/* heading */}
