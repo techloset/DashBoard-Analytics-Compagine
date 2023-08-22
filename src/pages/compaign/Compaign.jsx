@@ -6,7 +6,7 @@ const Compaign = () => {
 
 
 {/* compaign performance pannel */}
-      <div className='xl:w-[759px] xl:h-[326px] '>
+      <div className='xl:w-[759px] xl:h-[326px]  border-2 border-solid rounded-[20px] border-[#ecedf6] shadow-2xs'>
 
         {/* heading */}
 
@@ -54,12 +54,12 @@ const Compaign = () => {
             <img src="/images/insta.svg" alt="" />
           </div>
 
-          <div className='xl:mt-[28px] xl:mr-[137px] '>
-            <p className=''>Google Ads</p>
+          <div className='xl:mt-[28px] xl:mr-[137px]'>
+            <p className=' xl:w-[86px]'>Google Ads</p>
           </div>
 
           <div className='xl:mt-[28px] xl:mr-[97px]'>
-            <p >189k</p>
+            <p className=''>189k</p>
           </div>
 
           <div className='xl:mt-[28px] xl:mr-[74px]'>
@@ -77,30 +77,30 @@ const Compaign = () => {
 
         {/* tiktok */}
 
-        <div className='flex items-center  xl:text-[16px] font-[700] font-BOLD xl:my-[20px]'>
+        <div className='flex items-center  xl:text-[16px] font-[700] font-BOLD '>
 
           <div className=' xl:ml-[38px] xl:mt-[20px] xl:mr-[16px] xl:w-[35px] xl:h-[35px] rounded-[17.5px] bg-[#253174] shadow-3xc flex justify-center items-center'>
             <img src="/images/tiktok.svg" alt="" />
           </div>
 
-          <div className='xl:mt-[28px] xl:mr-[137px] '>
-            <p className=''>Google Ads</p>
+          <div className='xl:mt-[36px] xl:mr-[171px] '>
+            <p className='xl:w-[51px] xl:h-[19px]'>Tik Tok</p>
           </div>
 
-          <div className='xl:mt-[28px] xl:mr-[97px]'>
-            <p >189k</p>
+          <div className='xl:mt-[36px] xl:mr-[93px]'>
+            <p >287k</p>
           </div>
 
-          <div className='xl:mt-[28px] xl:mr-[74px]'>
-            <p>9k</p>
+          <div className='xl:mt-[36px] xl:mr-[67px]'>
+            <p>15k</p>
           </div>
 
-          <div className='xl:mt-[28px] xl:mr-[62px]'>
-            <p>$8.12</p>
+          <div className='xl:mt-[36px] xl:mr-[58px]'>
+            <p>$12.12</p>
           </div>
 
-          <div className='xl:mt-[28px] xl:mr-[49px]'>
-            <p>$56,123.12</p>
+          <div className='xl:mt-[36px] xl:mr-[48px]'>
+            <p>$40,123.12</p>
           </div>
         </div>
 
@@ -112,24 +112,24 @@ const Compaign = () => {
             <img src="/images/google.svg" alt="" />
           </div>
 
-          <div className='xl:mt-[28px] xl:mr-[137px] '>
-            <p className=''>Google Ads</p>
+          <div className='xl:mt-[36px] xl:mr-[148px] '>
+            <p className='xl:w-[75px]'>Instagram</p>
           </div>
 
-          <div className='xl:mt-[28px] xl:mr-[97px]'>
-            <p >189k</p>
+          <div className='xl:mt-[36px] xl:mr-[94px]'>
+            <p >156k</p>
           </div>
 
-          <div className='xl:mt-[28px] xl:mr-[74px]'>
-            <p>9k</p>
+          <div className='xl:mt-[36px] xl:mr-[70px]'>
+            <p>12k</p>
           </div>
 
-          <div className='xl:mt-[28px] xl:mr-[62px]'>
-            <p>$8.12</p>
+          <div className='xl:mt-[36px] xl:mr-[62px]'>
+            <p>$5.12</p>
           </div>
 
-          <div className='xl:mt-[28px] xl:mr-[49px]'>
-            <p>$56,123.12</p>
+          <div className='xl:mt-[36px] xl:mr-[50px]'>
+            <p>$39,123.12</p>
           </div>
         </div>
 
