@@ -2,11 +2,11 @@ import React from 'react'
 
 const RevenuPage = () => {
   return (
-    <div className='  flex font-Regular   xl:mt-[24px] xl:w-[1082px] xl:h-[169px] '>
+    <div className='  bg-[#ffffff] flex font-Regular   xl:mt-[24px] xl:w-[1082px] xl:h-[169px] border-2 border-solid rounded-[20px] border-[#ecedf6] shadow-2xs'>
 
 
 {/* 1st */}
-      <div className='bg-white xl:w-[211px] xl:h-[94px] xl:ml-[45px] xl:mr-[47px] xl:mt-[38px] xl:mb-[37px] '>
+      <div className=' xl:w-[211px] xl:h-[94px] xl:ml-[45px] xl:mr-[47px] xl:mt-[38px] xl:mb-[37px] '>
 
       <div className='xl:flex xl:justify-center xl:items-center'>
           <div className=' text-[16px] font-[400] '>Available to witdraw</div>
@@ -29,7 +29,7 @@ const RevenuPage = () => {
       </div>
 
 {/* 2nd  */}
-      <div className='bg-white xl:w-[169px] xl:h-[96px] xl:ml-[47px] xl:mr-[47px]  xl:mt-[36px] xl:mb-[37px]  '>
+      <div className='bxl:w-[169px] xl:h-[96px] xl:ml-[47px] xl:mr-[47px]  xl:mt-[36px] xl:mb-[37px]  '>
 
        
       <div className='xl:flex xl:justify-center xl:items-center'>
@@ -53,7 +53,7 @@ const RevenuPage = () => {
       </div>
 
 {/* 3rd */}
-      <div className='bg-white xl:w-[168px] xl:h-[96px] xl:ml-[47px] xl:mr-[47px]  xl:mt-[36px] xl:mb-[37px] '>
+      <div className=' xl:w-[168px] xl:h-[96px] xl:ml-[47px] xl:mr-[47px]  xl:mt-[36px] xl:mb-[37px] '>
 
       <div className='xl:flex xl:justify-center xl:items-center'>
           <div className=' text-[16px] font-[400] '>Today Sessions</div>
@@ -76,7 +76,7 @@ const RevenuPage = () => {
       </div>
 
 {/* 4th */}
-      <div className='  bg-white xl:w-[145px] xl:h-[96px] xl:ml-[47px] xl:mr-[66px] xl:mt-[36px] xl:mb-[37px]  '>
+      <div className='   xl:w-[145px] xl:h-[96px] xl:ml-[47px] xl:mr-[66px] xl:mt-[36px] xl:mb-[37px]  '>
 
         <div className='xl:flex xl:justify-center xl:items-center'>
           <div className=' text-[16px] font-[400] '>Subscribers</div>

@@ -6,7 +6,7 @@ const Compaign = () => {
 
 
 {/* compaign performance pannel */}
-      <div className='xl:w-[759px] xl:h-[326px]  border-2 border-solid rounded-[20px] border-[#ecedf6] shadow-2xs'>
+      <div className='xl:w-[759px] xl:h-[326px]  border-2 border-solid rounded-[20px] bg-[#ffffff] border-[#ecedf6] shadow-2xs'>
 
         {/* heading */}
 
@@ -138,7 +138,7 @@ const Compaign = () => {
 
 
       {/* Top Countries  pannel*/}
-      <div className='xl:h-[326px]  xl:w-[287px]  xl:ml-[36px] border-2 border-solid rounded-[20px] border-[#ecedf6] shadow-2xs'>
+      <div className='xl:h-[326px]  xl:w-[287px]  xl:ml-[36px] border-2 bg-[#ffffff] border-solid rounded-[20px] border-[#ecedf6] shadow-2xs'>
 
         {/* heading */}
         <p className='text-[22.4px] font-[700] font-BOLD xl:ml-[30px] xl:mt-[30px] xl:mr-[111px] xl:w-[146px]  '>Top Countries</p>
