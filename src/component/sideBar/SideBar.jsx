@@ -1,129 +1,91 @@
-import React from 'react'
-// import React, { useState } from 'react'
+// import React from 'react'
+import React, { useState } from 'react'
 
 
 const SideBar = () => {
-    // const [navbar, setNavbar] = useState(false)
+    const [navbar, setNavbar] = useState(false)
     return (
         <div className="xl:w-[266px]  ">
 
-            <div className=' items-center flex  xl:ml-[51px]  '>
+
+
+            {/* logo and Name */}
+            <div className=' xl:items-center xl:flex  xl:ml-[51px]  hidden'>
 
                 <div className=' xl:mt-[33px]'>
                     <img src="/images/icon.svg" alt="" />
                 </div>
 
                 <div className=' xl:text-[35.4px] text-[#001dc0] xl:mt-[37px] xl:ml-[8px] '>
-                    <span className='font-Regular font-[400]  xl:tracking-[0.35px]'> Ads </span>
-                    <span className=' font-BOLD  font-[700] '> litics </span>
+                    <span className='font-Regular xl:font-[400]  xl:tracking-[0.35px]'> Ads </span>
+                    <span className=' font-BOLD xl:font-[700] '> litics </span>
 
                 </div>
             </div>
 
 
-            <div className='xl:w-[231px]  xl:ml-[35px] xl:h-[557px] xl:mt-[56px]'>
+            {/* side bar content */}
+            <div className='xl:w-[231px]  xl:ml-[35px] xl:h-[557px] xl:mt-[56px] hidden xl:block'>
 
                 <ul className="    ">
 
-
-
                     <div className=''>
 
-                        <li className=' flex justify-center items-center gap-2 xl:mx-auto xl:h-[61.6px] hover:text-[#1a2b88] xl:text-[19px] font-[700]  hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] border-1.36 border-solid ' >
-                            <img src="/images/dashboard.png" alt="" className='w-[28px] h-[28px]' />
+                        <li className=' xl:flex xl:justify-center xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px] hover:text-[#1a2b88] xl:text-[19px] xl:font-[700]  hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] xl:border-1.36 xl:border-solid ' >
+                            <img src="/images/dashboard.png" alt="" className='xl:w-[28px] xl:h-[28px]' />
                             Dashboard
                         </li>
 
 
-                        <li className='xl:mt-[20px] flex justify-center items-center gap-2 xl:mx-auto xl:h-[61.6px]   hover:bg-white hover:text-[#1a2b88] xl:text-[19px] font-[700] hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] border-1.36 border-solid ' >
-                            <img src="/images/compaign.png" alt="" className='xl:ml-[-8px] w-[29px] h-[29px]' />
+                        <li className='xl:mt-[20px] xl:flex xl:justify-center xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]   hover:bg-white hover:text-[#1a2b88] xl:text-[19px] xl:font-[700] hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] xl:border-1.36 xl:border-solid ' >
+                            <img src="/images/compaign.png" alt="" className='xl:ml-[-8px] xl:w-[29px] xl:h-[29px]' />
                             Compaign
                         </li>
 
-                        <li className='xl:mt-[20px] flex justify-center items-center gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] font-[700]  hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] border-1.36 border-solid ' >
-                            <img src="/images/audience.png" alt="" className='xl:ml-[-10px] w-[28px] h-[28px]' />
+                        <li className='xl:mt-[20px] xl:flex xl:justify-center xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] xl:font-[700]  hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] xl:border-1.36 xl:border-solid ' >
+                            <img src="/images/audience.png" alt="" className='xl:ml-[-10px] xl:w-[28px] xl:h-[28px]' />
                             Audience
                         </li>
 
-                        <li className='xl:mt-[20px] flex justify-center items-center gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] font-[700]  hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] border-1.36 border-solid ' >
-                            <img src="/images/performance.png" alt="" className='xl:ml-[21px] w-[28px] h-[28px]' />
+                        <li className='xl:mt-[20px] xl:flex xl:justify-center xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] font-[700]  hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] xl:border-1.36 xl:border-solid ' >
+                            <img src="/images/performance.png" alt="" className='xl:ml-[21px] xl:w-[28px] xl:h-[28px]' />
                             performance
                         </li>
 
-                        <li className='xl:mt-[20px] flex justify-center items-center gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] font-[700] hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] border-1.36 border-solid ' >
-                            <img src="/images/like.png" alt="" className='xl:ml-[-15px] w-[30px] h-[30px]' />
+                        <li className='xl:mt-[20px] xl:flex xl:justify-center xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] font-[700] hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] xl:border-1.36 xl:border-solid ' >
+                            <img src="/images/like.png" alt="" className='xl:ml-[-15px] xl:w-[30px] xl:h-[30px]' />
                             Promote
                         </li>
 
 
                         <div className='xl:mt-[10px]'>
-                            <img src="/images/line.png" alt="" className=' w-[231px]' />
+                            <img src="/images/line.png" alt="" className=' xl:w-[231px]' />
                         </div>
 
-                        <li className='xl:mt-[20px] flex justify-center items-center gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] font-[700] hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] border-1.36 border-solid ' >
+                        <li className='xl:mt-[20px] xl:flex xl:justify-center xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] font-[700] hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] xl:border-1.36 xl:border-solid ' >
                             <img src="/images/profile.png" alt="" className='xl:ml-[-35px] w-[28px] h-[28px]' />
                             profile
                         </li>
 
-                        <li className='xl:mt-[20px] flex justify-center items-center gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] font-[700] hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] border-1.36 border-solid ' >
-                            <img src="/images/setting.png" alt="" className='xl:ml-[-26px] w-[28px] h-[28px]' />
+                        <li className='xl:mt-[20px] xl:flex xl:justify-center xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] font-[700] hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] xl:border-1.36 xl:border-solid ' >
+                            <img src="/images/setting.png" alt="" className='xl:ml-[-26px] xl:w-[28px] xl:h-[28px]' />
                             setting
                         </li>
                     </div>
-
-
-
-                    {/* 
-               <div className='xl:h-[61.6px] bg-violet-300 flex justify-center items-center' >
-
-
-               </div>
-
-               <div className='xl:h-[61.6px] bg-violet-400 flex justify-center items-center' >
-
-
-               </div>
-
-               <div className='xl:h-[61.6px] bg-violet-500 flex justify-center items-center' >
-
-               
-
-               </div>
-
-               <div className='xl:h-[61.6px] bg-violet-600 flex justify-center items-center' >
-
-               
-
-               </div>
-
-               <div className='xl:h-[61.6px] bg-violet-700 flex justify-center items-center' >
-
-               
-
-               </div>
-
-               <div className='xl:h-[61.6px] bg-violet-800 flex justify-center items-center' >
-
-              
-
-               </div> */}
-
-
-
                 </ul>
             </div>
 
 
             {/* avatar */}
-            <div className='flex xl:w-[190px] xl:h-[40px] mt-[240px] ml-[71px] mb-[44px] '>
+            <div className='xl:flex xl:w-[190px] xl:h-[40px] xl:mt-[240px] xl:ml-[71px] xl:mb-[44px]  hidden'>
 
-                <div className='w-[40px] h-[40px] ml-[14px]'>
+                <div className='xl:w-[40px] xl:h-[40px] xl:ml-[14px]'>
                     <img src="/images/imagee.png" alt="" />
                 </div>
-                <div className=' font-BOLD flex justify-center items-center ml-[16px]'>
+                <div className=' xl:font-BOLD xl:flex xl:justify-center xl:items-center xl:ml-[16px]'>
                     <p className='xl:text:[18px] font-[700]  '>Gavano</p>
                 </div>
-                <div className='flex justify-center items-center w-[30.5] h-[30.5]  ml-[38px]'>
+                <div className='xl:flex xl:justify-center xl:items-center xl:w-[30.5] xl:h-[30.5]  xl:ml-[38px]'>
                     <img src="/images/more.svg" alt="" />
                 </div>
 
@@ -153,45 +115,71 @@ const SideBar = () => {
 
 
 
+            <div className=' lg:hidden'>
 
 
-            {/* <button onClick={() => setNavbar(!navbar)} class="md:hidden bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Button</button>
+                {/* onClick={() => setNavbar(!navbar)} */}
 
-            {
-                navbar ? (
-                    <ul className="">
-                        <li className="text-gray-600 hover:text-blue-600">
+                <img src='/images/icon.svg' onClick={() => setNavbar(!navbar)} class=" hover:bg-blue-300 hover:scale-50 " />
+                {
+                    navbar ? (
 
-                            Dashboard
+                        <div className=' translate-x-[0%] w-[25%]   '>
+                            <ul className="    ">
 
-                        </li>
-                        <li className="text-gray-600 hover:text-blue-600">
-                            compaign
-                        </li>
-                        <li className="text-gray-600 hover:text-blue-600">
+                                <div className=''>
 
-                            Audience
-
-                        </li>
-                        <li className="text-gray-600 hover:text-blue-600">
-                            performance
-                        </li>
-                        <li className="text-gray-600 hover:text-blue-600">
-                            promote
-                        </li>
-                        <li className="text-gray-600 hover:text-blue-600">
-                            profile
-                        </li>
-                        <li className="text-gray-600 hover:text-blue-600">
-                            setting
-                        </li>
-                    </ul>
-                ) : (
-                    <p></p>
-                )
-            } */}
+                                    <li className='sm:w-[150px]  flex justify-center items-center gap-1.5 mx-auto h-[30.6px] hover:text-[#1a2b88] hover:bg-white text-[14px] font-[700]  hover:shadow-3xl  rounded-2xl   border-1.6 border-solid ' >
+                                        <img src="/images/dashboard.png" alt="" className='w-[18px] h-[18px]' />
+                                        Dashboard
+                                    </li>
 
 
+                                    <li className='sm:w-[150px]  mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[40.6px]   hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700] hover:shadow-3xl  rounded-2xl   border-1.36 border-solid ' >
+                                        <img src="/images/compaign.png" alt="" className='ml-[-8px] w-[19px] h-[19px]' />
+                                        Compaign
+                                    </li>
+
+                                    <li className='sm:w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700]  hover:shadow-3xl  rounded-2xl   border-1.36 border-solid ' >
+                                        <img src="/images/audience.png" alt="" className='ml-[-10px] w-[18px] h-[18px]' />
+                                        Audience
+                                    </li>
+
+                                    <li className='sm:w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700]  hover:shadow-3xl  rounded-2xl   border-1.36 border-solid ' >
+                                        <img src="/images/performance.png" alt="" className='ml-[11px] w-[18px] h-[28px]' />
+                                        performance
+                                    </li>
+
+                                    <li className='sm:w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700] hover:shadow-3xl  rounded-2xl  border-1.36 border-solid ' >
+                                        <img src="/images/like.png" alt="" className='ml-[-15px] w-[20px] h-[20px]' />
+                                        Promote
+                                    </li>
+
+
+                                    <div className='sm:w-[150px] mt-[10px] ml-[20px]'>
+                                        <img src="/images/line.png" alt="" className=' w-[231px]' />
+                                    </div>
+
+                                    <li className='sm:w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700] hover:shadow-3xl  rounded-2xl   border-1.36 border-solid ' >
+                                        <img src="/images/profile.png" alt="" className='ml-[-35px] w-[18px] h-[18px]' />
+                                        profile
+                                    </li>
+
+                                    <li className='sm:w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700] hover:shadow-3xl  rounded-2xl  border-1.36 border-solid ' >
+                                        <img src="/images/setting.png" alt="" className='ml-[-26px] w-[18px] h-[18px]' />
+                                        setting
+                                    </li>
+                                </div>
+                            </ul>
+                            <button onClick={() => setNavbar(!navbar)} className='w-[70px] mt-[10px] flex justify-center items-center m-auto bg-red-500 hover:bg-green-300'>close</button>
+                        </div>
+
+                    ) : (
+                        <p></p>
+                    )
+                }
+
+            </div>
         </div>
     )
 }

@@ -9,7 +9,7 @@ const RevenuPage = () => {
       <div className=' xl:w-[211px] xl:h-[94px] xl:ml-[45px] xl:mr-[47px] xl:mt-[38px] xl:mb-[37px] '>
 
       <div className='xl:flex xl:justify-center xl:items-center'>
-          <div className=' text-[16px] font-[400] '>Available to witdraw</div>
+          <div className=' text-[16px] font-[400] text-[#7d7d7d] '>Available to witdraw</div>
 
           <div className='xl:ml-[17px] xl:flex xl:items-center  xl:justify-center bg-[#f4f6f6] xl:w-[39px] xl:h-[15px] '>
             <img src="/images/arrowup.png" alt="" className='w-[10px] h-[10px] ' />
@@ -33,7 +33,7 @@ const RevenuPage = () => {
 
        
       <div className='xl:flex xl:justify-center xl:items-center'>
-          <div className=' text-[16px] font-[400] '>Today Revenue</div>
+          <div className=' text-[16px] font-[400] xl:w-[107px] '>Today Revenue</div>
 
           <div className='xl:ml-[17px] xl:flex xl:items-center  xl:justify-center bg-[#ff00001a] xl:w-[39px] xl:h-[15px] '>
             <img src="/images/arrowup.png" alt="" className='w-[10px] h-[10px] ' />
