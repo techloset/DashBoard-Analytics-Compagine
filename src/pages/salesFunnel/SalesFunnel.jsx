@@ -1,42 +1,105 @@
+import { useState } from "react";
 import React from 'react'
 import { Chart } from "react-google-charts";
 
 
-export const data = [
-  ["top ", " "],
-  ["10", 42000],
-  ["11", 42000],
-  ["12", 62000],
-  ["14", 42000],
-  ["15", 56000],
-  ["16", 82000],
-  ["17", 44000],
-  ["18", 46000],
-  ["19", 65000],
-  ["20", 63000],
-  ["21", 46000],
-  ["22", 61000],
-  ["23", 48000],
-  ["24", 60000]
-];
+// export const data = [
+//   ["top ", " "],
+//   ["10", 42000],
+//   ["11", 42000],
+//   ["12", 62000],
+//   ["14", 42000],
+//   ["15", 56000],
+//   ["16", 82000],
+//   ["17", 44000],
+//   ["18", 46000],
+//   ["19", 65000],
+//   ["20", 63000],
+//   ["21", 46000],
+//   ["22", 61000],
+//   ["23", 48000],
+//   ["24", 60000]
+// ];
 
 export const options = {
   // title: "Sales Funnel",
   // hAxis: { titleTextStyle: { color: "#3D37F133" } },
-  vAxis: { minValue: "100000" },
+  // vAxis: { minValue: "100000" },
   
   // backgroundColor: "#3D37F133",
   // is3D: "no",
-  chartArea: { width: "80%", height: "80%" }
+  // chartArea: { width: "80%", height: "80%" }
 };
 
+
+
+
+
+
 const SalesFunnel = () => {
+
+  const [cursorPosition, setCursorPosition] = useState(null);
+
+  const handleMouseMove = (event) => {
+    // Get the x-coordinate of the cursor within the chart area
+    const chartArea = document.querySelector('.google-visualization-chart');
+    if (chartArea) {
+      const chartAreaBoundingBox = chartArea.getBoundingClientRect();
+      const cursorX = event.clientX - chartAreaBoundingBox.left;
+      setCursorPosition(cursorX);
+    }
+  };
+
+
+  const chartData = [
+    ['X', 'Y'],
+    [0, 0],
+    [1, 1],
+    [2, 4],
+    [3, 9],
+    // Add more data points as needed
+  ];
+
   return (
     <div className='xl:w-[1082px] flex xl:mt-[27px]  '  >
 
       <div className='xl:w-[759px] xl:h-[334px] bg-[#ffffff]   border-2 border-solid border-[#ecedf6] shadow-2xs rounded-[20px]'> 
       
 
+
+      
+      <div>
+      <Chart
+        width={'500px'}
+        height={'300px'}
+        chartType="LineChart"
+        data={chartData}
+        options={{
+          title: 'Line Chart with Cursor',
+          hAxis: {
+            title: 'X Axis',
+          },
+          vAxis: {
+            title: 'Y Axis',
+          },
+        }}
+        chartEvents={[
+          {
+            eventName: 'mousemove',
+            callback: handleMouseMove,
+          },
+        ]}
+      />
+      <div>
+        Cursor Position: {cursorPosition !== null ? cursorPosition : 'N/A'}
+      </div>
+    </div>
+
+
+
+
+
+{/* 
       <div className='flex font-BOLD'>
         <div className='xl:ml-[30px] xl:mt-[28px] xl:mr-[450px]  xl:w-[130px]'>
           <p className='text-[22.4px] font-[700] '> Sales Funnel</p>
@@ -55,7 +118,7 @@ const SalesFunnel = () => {
       data={data}
       options={options}
     />
-      </div>
+      </div> */}
       
       
       </div>
