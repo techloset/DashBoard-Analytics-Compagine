@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 const SideBar = () => {
     const [navbar, setNavbar] = useState(false)
     return (
-        <div className="xl:w-[266px]  ">
+        <div className="xl:w-[266px]   ">
 
 
 
@@ -115,57 +115,57 @@ const SideBar = () => {
 
 
 
-            <div className=' lg:hidden'>
+            <div className=' lg:hidden w-[25%] '>
 
 
                 {/* onClick={() => setNavbar(!navbar)} */}
 
-                <img src='/images/icon.svg' onClick={() => setNavbar(!navbar)} class=" hover:bg-blue-300 hover:scale-50 " />
+                <img src='/images/icon.svg' onClick={() => setNavbar(!navbar)} class=" hover:bg-blue-300 ml-[50px] mt-[20px] " />
                 {
                     navbar ? (
 
-                        <div className=' translate-x-[0%] w-[25%]   '>
+                        <div className=' translate-x-[10%]   '>
                             <ul className="    ">
 
                                 <div className=''>
 
-                                    <li className='sm:w-[150px]  flex justify-center items-center gap-1.5 mx-auto h-[30.6px] hover:text-[#1a2b88] hover:bg-white text-[14px] font-[700]  hover:shadow-3xl  rounded-2xl   border-1.6 border-solid ' >
+                                    <li className='w-[150px] mt-[20px]  flex justify-center items-center gap-1.5 mx-auto h-[30.6px] hover:text-[#1a2b88] hover:bg-white text-[14px] font-[700]  hover:shadow-3xl  rounded-2xl   border-1.6 border-solid ' >
                                         <img src="/images/dashboard.png" alt="" className='w-[18px] h-[18px]' />
                                         Dashboard
                                     </li>
 
 
-                                    <li className='sm:w-[150px]  mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[40.6px]   hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700] hover:shadow-3xl  rounded-2xl   border-1.36 border-solid ' >
+                                    <li className='w-[150px]  mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[40.6px]   hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700] hover:shadow-3xl  rounded-2xl   border-1.36 border-solid ' >
                                         <img src="/images/compaign.png" alt="" className='ml-[-8px] w-[19px] h-[19px]' />
                                         Compaign
                                     </li>
 
-                                    <li className='sm:w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700]  hover:shadow-3xl  rounded-2xl   border-1.36 border-solid ' >
+                                    <li className='w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700]  hover:shadow-3xl  rounded-2xl   border-1.36 border-solid ' >
                                         <img src="/images/audience.png" alt="" className='ml-[-10px] w-[18px] h-[18px]' />
                                         Audience
                                     </li>
 
-                                    <li className='sm:w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700]  hover:shadow-3xl  rounded-2xl   border-1.36 border-solid ' >
+                                    <li className='w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700]  hover:shadow-3xl  rounded-2xl   border-1.36 border-solid ' >
                                         <img src="/images/performance.png" alt="" className='ml-[11px] w-[18px] h-[28px]' />
                                         performance
                                     </li>
 
-                                    <li className='sm:w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700] hover:shadow-3xl  rounded-2xl  border-1.36 border-solid ' >
+                                    <li className='w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700] hover:shadow-3xl  rounded-2xl  border-1.36 border-solid ' >
                                         <img src="/images/like.png" alt="" className='ml-[-15px] w-[20px] h-[20px]' />
                                         Promote
                                     </li>
 
 
-                                    <div className='sm:w-[150px] mt-[10px] ml-[20px]'>
+                                    <div className='w-[150px] mt-[10px] ml-[20px]'>
                                         <img src="/images/line.png" alt="" className=' w-[231px]' />
                                     </div>
 
-                                    <li className='sm:w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700] hover:shadow-3xl  rounded-2xl   border-1.36 border-solid ' >
+                                    <li className='w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700] hover:shadow-3xl  rounded-2xl   border-1.36 border-solid ' >
                                         <img src="/images/profile.png" alt="" className='ml-[-35px] w-[18px] h-[18px]' />
                                         profile
                                     </li>
 
-                                    <li className='sm:w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700] hover:shadow-3xl  rounded-2xl  border-1.36 border-solid ' >
+                                    <li className='w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700] hover:shadow-3xl  rounded-2xl  border-1.36 border-solid ' >
                                         <img src="/images/setting.png" alt="" className='ml-[-26px] w-[18px] h-[18px]' />
                                         setting
                                     </li>
