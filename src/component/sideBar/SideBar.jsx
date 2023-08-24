@@ -25,35 +25,35 @@ const SideBar = () => {
 
 
             {/* side bar content */}
-            <div className='xl:w-[231px]  xl:ml-[35px] xl:h-[557px] xl:mt-[56px] hidden xl:block'>
+            <div className='xl:w-[231px]  xl:ml-[35px] xl:h-[557px] xl:mt-[56px] hidden xl:block  font-Regular'>
 
                 <ul className="    ">
 
                     <div className=''>
 
-                        <li className=' xl:flex xl:justify-center xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px] hover:text-[#1a2b88] xl:text-[19px] xl:font-[700]  hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] xl:border-1.36 xl:border-solid border-[#efeeeb] ' >
-                            <img src="/images/dashboard.png" alt="" className='xl:w-[28.43px] xl:h-[28.43px]' />
+                        <li className=' xl:flex xl:items-center xl:gap-2 xl:h-[61.6px]  xl:mx-auto hover:text-[#1a2b88] xl:text-[19px] xl:font-[700]  hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] xl:border-1.36 xl:border-solid border-[#efeeeb] ' >
+                            <img src="/images/dashboard.png" alt="" className='xl:w-[28.43px] xl:h-[28.43px] xl:ml-[33.17px] ' />
                             Dashboard
                         </li>
 
 
-                        <li className='xl:mt-[20px] xl:flex xl:justify-center xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]   hover:bg-white hover:text-[#1a2b88] xl:text-[19px] xl:font-[700] hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] xl:border-1.36 xl:border-solid ' >
-                            <img src="/images/compaign.png" alt="" className='xl:ml-[-8px] xl:w-[29px] xl:h-[29px]' />
+                        <li className=' xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]   hover:bg-white hover:text-[#1a2b88] xl:text-[19px] xl:font-[700] hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] xl:border-1.36 xl:border-solid ' >
+                            <img src="/images/compaign.png" alt="" className=' xl:w-[29px] xl:h-[29px] xl:ml-[33.17px]' />
                             Compaign
                         </li>
 
-                        <li className='xl:mt-[20px] xl:flex xl:justify-center xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] xl:font-[700]  hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb] xl:border-1.36 xl:border-solid ' >
-                            <img src="/images/audience.png" alt="" className='xl:ml-[-10px] xl:w-[28px] xl:h-[28px]' />
+                        <li className='xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] xl:font-[700]  hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb] xl:border-1.36 xl:border-solid ' >
+                            <img src="/images/audience.png" alt="" className='xl:ml-[33.17px] xl:w-[28px] xl:h-[28px]' />
                             Audience
                         </li>
 
-                        <li className='xl:mt-[20px] xl:flex xl:justify-center xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] font-[700]  hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb] xl:border-1.36 xl:border-solid ' >
-                            <img src="/images/performance.png" alt="" className='xl:ml-[21px] xl:w-[28.43px] xl:h-[28.43px]' />
+                        <li className='xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] font-[700]  hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb] xl:border-1.36 xl:border-solid ' >
+                            <img src="/images/performance.png" alt="" className='xl:ml-[33.17px] xl:w-[28.43px] xl:h-[28.43px]' />
                             performance
                         </li>
 
-                        <li className='xl:mt-[20px] xl:flex xl:justify-center xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] font-[700] hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb] xl:border-1.36 xl:border-solid ' >
-                            <img src="/images/like.png" alt="" className='xl:ml-[-15px] xl:w-[30px] xl:h-[30px]' />
+                        <li className='xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] font-[700] hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb] xl:border-1.36 xl:border-solid ' >
+                            <img src="/images/like.png" alt="" className='xl:ml-[33.17px] xl:w-[30px] xl:h-[30px]' />
                             Promote
                         </li>
 
@@ -62,14 +62,14 @@ const SideBar = () => {
                             <img src="/images/line.png" alt="" className=' xl:w-[231px]' />
                         </div>
 
-                        <li className='xl:mt-[20px] xl:flex xl:justify-center xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] font-[700] hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb] xl:border-1.36 xl:border-solid ' >
-                            <img src="/images/profile.png" alt="" className='xl:ml-[-35px] w-[27.1px] h-[27.1px]' />
-                            profile
+                        <li className='xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] font-[700] hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb] xl:border-1.36 xl:border-solid ' >
+                            <img src="/images/profile.png" alt="" className='xl:ml-[33.17px] w-[27.1px] h-[27.1px]' />
+                            Profile
                         </li>
 
-                        <li className='xl:mt-[20px] xl:flex xl:justify-center xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] font-[700] hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] xl:border-1.36 xl:border-solid ' >
-                            <img src="/images/setting.png" alt="" className='xl:ml-[-26px] xl:w-[27.1px] xl:h-[27.1px]' />
-                            setting
+                        <li className='xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] font-[700] hover:xl:shadow-3xl  xl:rounded-2xl  xl:hover:bg-[#ffffff] xl:border-1.36 xl:border-solid ' >
+                            <img src="/images/setting.png" alt="" className='xl:ml-[33.17px] xl:w-[27.1px] xl:h-[27.1px]' />
+                            Setting
                         </li>
                     </div>
                 </ul>
@@ -77,12 +77,12 @@ const SideBar = () => {
 
 
             {/* avatar */}
-            <div className='xl:flex xl:w-[190px] xl:h-[40px] xl:mt-[240px] xl:ml-[71px] xl:mb-[44px]  hidden'>
+            <div className='xl:flex xl:w-[190px] xl:h-[40px] xl:mt-[240.06px] xl:ml-[61px] xl:mb-[44px]  hidden'>
 
-                <div className='xl:w-[40px] xl:h-[40px] xl:ml-[14px]'>
+                <div className='xl:w-[40px] xl:h-[40px] '>
                     <img src="/images/imagee.png" alt="" />
                 </div>
-                <div className=' xl:font-BOLD xl:flex xl:justify-center xl:items-center xl:ml-[16px]'>
+                <div className=' xl:font-BOLD xl:flex xl:items-center xl:ml-[16px]'>
                     <p className='xl:text:[18px] font-[700]  '>Gavano</p>
                 </div>
                 <div className='xl:flex xl:justify-center xl:items-center xl:w-[30.5] xl:h-[30.5]  xl:ml-[38px]'>

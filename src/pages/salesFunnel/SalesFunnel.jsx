@@ -66,7 +66,7 @@ const SalesFunnel = () => {
       <Chart
       chartType="AreaChart"
       width="100%"
-      height="210px"
+      height="220px"
       data={data}
       options={options}
     />
