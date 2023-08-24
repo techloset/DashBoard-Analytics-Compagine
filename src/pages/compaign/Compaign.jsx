@@ -84,7 +84,7 @@ const Compaign = () => {
           </div>
 
           <div className=' xl:mr-[171px] '>
-            <p className='xl:w-[51px] xl:h-[19px]'>Tik Tok</p>
+            <p className='xl:w-[60px] xl:h-[19px]'>Tik Tok</p>
           </div>
 
           <div className=' xl:mr-[93px]'>
