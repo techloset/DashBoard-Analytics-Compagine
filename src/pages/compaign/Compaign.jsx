@@ -48,87 +48,87 @@ const Compaign = () => {
         <img src="/images/Line-19.png" alt="" className='xl:w-[696px] xl:mt-[18px] xl:ml-[30px] xl:mr-[33px] '/>
         {/* 3rd row */}
 
-        <div className='flex items-center  xl:text-[16px] font-[700] font-BOLD'>
+        <div className='xl:mt-[20px] flex  items-center    xl:text-[16px] font-[700] font-BOLD'>
 
-          <div className=' xl:ml-[38px] xl:mt-[20px] xl:mr-[16px] xl:w-[35px] xl:h-[35px] rounded-[17.5px] bg-[#253174] shadow-3xc flex justify-center items-center'>
+          <div className=' xl:ml-[38px]  xl:mr-[16px] xl:w-[35px] xl:h-[35px] rounded-[17.5px] bg-[#253174] shadow-3xc flex justify-center items-center'>
             <img src="/images/insta.svg" alt="" />
           </div>
 
-          <div className='xl:mt-[28px] xl:mr-[137px]'>
+          <div className=' xl:mr-[137px] '>
             <p className=' xl:w-[86px]'>Google Ads</p>
           </div>
 
-          <div className='xl:mt-[28px] xl:mr-[97px]'>
+          <div className=' xl:mr-[97px]'>
             <p className=''>189k</p>
           </div>
 
-          <div className='xl:mt-[28px] xl:mr-[74px]'>
+          <div className='xl:mr-[74px]'>
             <p>9k</p>
           </div>
 
-          <div className='xl:mt-[28px] xl:mr-[62px]'>
+          <div className='xl:mr-[62px]'>
             <p>$8.12</p>
           </div>
 
-          <div className='xl:mt-[28px] xl:mr-[49px]'>
+          <div className=' xl:mr-[49px]'>
             <p>$56,123.12</p>
           </div>
         </div>
 
         {/* tiktok */}
 
-        <div className='flex items-center  xl:text-[16px] font-[700] font-BOLD '>
+        <div className='flex items-center xl:mt-[20px]  xl:text-[16px] font-[700] font-BOLD '>
 
-          <div className=' xl:ml-[38px] xl:mt-[20px] xl:mr-[16px] xl:w-[35px] xl:h-[35px] rounded-[17.5px] bg-[#253174] shadow-3xc flex justify-center items-center'>
+          <div className=' xl:ml-[38px]  xl:mr-[16px] xl:w-[35px] xl:h-[35px] rounded-[17.5px] bg-[#253174] shadow-3xc flex justify-center items-center'>
             <img src="/images/tiktok.svg" alt="" />
           </div>
 
-          <div className='xl:mt-[36px] xl:mr-[171px] '>
+          <div className=' xl:mr-[171px] '>
             <p className='xl:w-[51px] xl:h-[19px]'>Tik Tok</p>
           </div>
 
-          <div className='xl:mt-[36px] xl:mr-[93px]'>
+          <div className=' xl:mr-[93px]'>
             <p >287k</p>
           </div>
 
-          <div className='xl:mt-[36px] xl:mr-[67px]'>
+          <div className=' xl:mr-[67px]'>
             <p>15k</p>
           </div>
 
-          <div className='xl:mt-[36px] xl:mr-[58px]'>
+          <div className=' xl:mr-[58px]'>
             <p>$12.12</p>
           </div>
 
-          <div className='xl:mt-[36px] xl:mr-[48px]'>
+          <div className=' xl:mr-[48px]'>
             <p>$40,123.12</p>
           </div>
         </div>
 
         {/* Insta */}
 
-        <div className='flex items-center  xl:text-[16px] font-[700] font-BOLD '>
+        <div className='flex items-center xl:mt-[20px]  xl:text-[16px] font-[700] font-BOLD '>
 
-          <div className=' xl:ml-[38px] xl:mt-[20px] xl:mr-[16px] xl:w-[35px] xl:h-[35px] rounded-[17.5px] bg-[#253174] shadow-3xc flex justify-center items-center'>
+          <div className=' xl:ml-[38px]  xl:mr-[16px] xl:w-[35px] xl:h-[35px] rounded-[17.5px] bg-[#253174] shadow-3xc flex justify-center items-center'>
             <img src="/images/google.svg" alt="" />
           </div>
 
-          <div className='xl:mt-[36px] xl:mr-[148px] '>
+          <div className=' xl:mr-[148px] '>
             <p className='xl:w-[75px]'>Instagram</p>
           </div>
 
-          <div className='xl:mt-[36px] xl:mr-[94px]'>
+          <div className=' xl:mr-[94px]'>
             <p >156k</p>
           </div>
 
-          <div className='xl:mt-[36px] xl:mr-[70px]'>
+          <div className=' xl:mr-[70px]'>
             <p>12k</p>
           </div>
 
-          <div className='xl:mt-[36px] xl:mr-[62px]'>
+          <div className=' xl:mr-[62px]'>
             <p>$5.12</p>
           </div>
 
-          <div className='xl:mt-[36px] xl:mr-[50px]'>
+          <div className=' xl:mr-[50px]'>
             <p>$39,123.12</p>
           </div>
         </div>
@@ -144,7 +144,7 @@ const Compaign = () => {
         <p className='text-[22.4px] font-[700] font-BOLD xl:ml-[30px] xl:mt-[30px] xl:mr-[111px] xl:w-[146px]  '>Top Countries</p>
 
         {/* united states*/}
-        <div className='flex justify-center items-center  xl:w-[215px] xl:h-[49px] xl:mt-[27px] xl:ml-[39px] xl:mr-[42px] '>
+        <div className=' flex justify-center items-center  xl:w-[215px] xl:h-[49px] xl:mt-[27px] xl:ml-[39px] xl:mr-[42px] '>
 
           <div className='flex justify-center items-center'>
             <div className='   xl:mr-[16px]  flex justify-center items-center '>
@@ -162,7 +162,7 @@ const Compaign = () => {
         </div>
 
         {/* united kingdom*/}
-        <div className='flex justify-center items-center  xl:w-[215px] xl:h-[49px] xl:mt-[27px] xl:ml-[39px] xl:mr-[42px] '>
+        <div className=' flex justify-center items-center  xl:w-[215px] xl:h-[49px] xl:mt-[27px] xl:ml-[39px] xl:mr-[42px] '>
 
           <div className='flex justify-center items-center'>
             <div className='   xl:mr-[16px]  flex justify-center items-center '>
@@ -180,12 +180,12 @@ const Compaign = () => {
         </div>
 
         {/* swizerland states*/}
-        <div className='flex justify-center items-center  xl:w-[215px] xl:h-[49px] xl:mt-[27px] xl:ml-[39px] xl:mr-[42px] '>
+        <div className=' flex justify-center items-center  xl:w-[215px] xl:h-[49px] xl:mt-[27px] xl:ml-[39px] xl:mr-[42px] '>
 
           <div className='flex justify-center items-center'>
 
             <div className='   xl:mr-[16px]  flex justify-center items-center xl:w-[49px] xl:h-[49px]  '>
-              <img src="/images/sweat.png" alt="" className='   ' />
+              <img src="/images/sweat.png" alt="" className='  ' />
             </div>
 
             <div>
@@ -194,7 +194,7 @@ const Compaign = () => {
 
           </div>
           <div>
-            <p className='text-[18px] font-[700] font-BOLD text-[#1a2b88]  xl:ml-[35px] '>48%</p>
+            <p className='text-[18px] font-[700] font-BOLD text-[#1a2b88]  xl:ml-[35px] '>9%</p>
           </div>
 
         </div>
