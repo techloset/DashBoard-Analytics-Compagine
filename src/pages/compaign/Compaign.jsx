@@ -183,9 +183,11 @@ const Compaign = () => {
         <div className='flex justify-center items-center  xl:w-[215px] xl:h-[49px] xl:mt-[27px] xl:ml-[39px] xl:mr-[42px] '>
 
           <div className='flex justify-center items-center'>
-            <div className='   xl:mr-[16px]  flex justify-center items-center '>
-              <img src="/images/sweat.png" alt="" className=' xl:w-[49px] xl:h-[49px]  ' />
+
+            <div className='   xl:mr-[16px]  flex justify-center items-center xl:w-[49px] xl:h-[49px]  '>
+              <img src="/images/sweat.png" alt="" className='   ' />
             </div>
+
             <div>
               <p className='text-[16px] font-[700] font-BOLD  text-center xl:w-[89px]   '>Switzerland</p>
             </div>
