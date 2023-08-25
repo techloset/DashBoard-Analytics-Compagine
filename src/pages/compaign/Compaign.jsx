@@ -83,8 +83,8 @@ const Compaign = () => {
             <img src="/images/tiktok.svg" alt="" className='w-[17.5px] h-[20px] '/>
           </div>
 
-          <div className=' xl:mr-[171px] xl:ml-[16px]'>
-            <p className='xl:w-[51px] xl:h-[19px]'>Tik Tok</p>
+          <div className=' xl:mr-[171px] xl:ml-[16px] xl:w-[55px]'>
+            <p className=' xl:h-[19px]'>Tik Tok</p>
           </div>
 
           <div className=' xl:mr-[93px]'>
