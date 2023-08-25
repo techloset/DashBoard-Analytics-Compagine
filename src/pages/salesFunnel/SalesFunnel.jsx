@@ -41,12 +41,12 @@ export const options = {
 const SalesFunnel = () => {
 
   return (
-    <div className='xl:w-[1082px] flex xl:mt-[27px] md:mt-[30px] xl:mb-0 md:flex-col lg:flex-row  '  >
+    <div className='xl:w-[1082px] flex xl:mt-[27px] md:mt-[30px] xl:mb-0 flex-col xl:flex-row  '  >
 
 
 
 {/* sales funnel */}
-      <div className='  xl:w-[759px] w-[100%] xl:h-[334px] bg-[#ffffff]   border-2 border-solid border-[#ecedf6] shadow-2xs rounded-[20px]'> 
+      <div className='  xl:w-[759px] w-[100%] xl:h-[334px] bg-[#ffffff]   border-2 border-solid border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)] rounded-[20px]'> 
       
 
       <div className='flex font-BOLD  md:justify-between'>
@@ -81,44 +81,44 @@ const SalesFunnel = () => {
 
 
       {/* devies category */}
-      <div className='w-[50%] mt-[30px] xl:mt-0 mx-auto xl:mx-0 xl:h-[334px]  xl:w-[287px]  xl:bg-[#ffffff] xl:ml-[36px] border-2 border-solid border-[#ecedf6] shadow-2xs rounded-[20px]' >
+      <div className='w-[50%] mt-[30px] xl:mt-0 mx-auto xl:mx-0 xl:h-[334px]  xl:w-[287px]  xl:bg-[#ffffff] xl:ml-[36px] border-2 border-solid border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)] rounded-[20px]' >
 
         {/* heading */}
-        <p className=' w-[50%] mr-[75px] mx-auto xl:w-auto xl:mx-0 xl:text-[22.4px] xl:font-[700] font-BOLD xl:ml-[30px] xl:mt-[30px] xl:mr-[81px]  md:mt-[20px]'>Device Category</p>
+        <p className=' w-[50%] mr-[75px] mx-auto xl:w-auto xl:mx-0 xl:text-[22.4px] xl:font-[700] font-BOLD xl:ml-[30px] xl:mt-[30px] xl:mr-[81px]  mt-[20px]'>Device Category</p>
 
         {/* mobile row */}
-        <div className='flex justify-center items-center  xl:w-[215px] xl:h-[44px] xl:mt-[41px] md:mt-[30px] xl:ml-[30px] xl:mr-[42px] '>
+        <div className='flex justify-center items-center  xl:w-[215px] xl:h-[44px] xl:mt-[41px] md:mt-[30px] mt-[15px] xl:ml-[30px] xl:mr-[42px] '>
 
           <div className='flex justify-center items-center'>
             <div className='bg-[#F2F1FF] xl:w-[44px] xl:h-[44px]   xl:mr-[14px]  flex justify-center items-center '>
-              <img src="/images/device1.svg" alt="" className=' xl:w-[19.2px] xl:h-[24px]  md:w-[15px] ' />
+              <img src="/images/device1.svg" alt="" className=' xl:w-[19.2px] xl:h-[24px]  w-[15px] ' />
             </div>
             <div>
-              <p className='xl:text-[16px] xl:font-[400] font-Regular  xl:text-center   '>Mobile</p>
+              <p className='xl:text-[16px] xl:font-[400] font-Regular  xl:text-center ml-[16px] xl:ml-0  '>Mobile</p>
             </div>
 
           </div>
           <div>
-            <p className='xl:text-[18px] font-[700] font-BOLD text-[#1a2b88]  xl:ml-[47px] '>96.42%</p>
+            <p className='xl:text-[18px] font-[700] font-BOLD text-[#1a2b88]  xl:ml-[47px]  ml-[16px]  '>96.42%</p>
           </div>
 
         </div>
 
         {/* desktop */}
 
-        <div className='flex justify-center items-center md:ml-[5px]  xl:w-[215px] xl:h-[44px]  xl:ml-[30px] xl:mr-[42px] xl:my-[20px] md:my-[40px]'>
+        <div className='flex justify-center items-center md:ml-[5px]  xl:w-[215px] xl:h-[44px]  xl:ml-[30px] xl:mr-[42px] xl:my-[20px] md:my-[40px] my-[20px] '>
 
           <div className='flex  justify-center items-center'>
             <div className='bg-[#F2F1FF] xl:w-[44px] xl:h-[44px]   xl:mr-[14px]  flex justify-center items-center '>
-              <img src="/images/device2.png" alt="" className=' xl:w-[24px] xl:h-[24px] md:w-[16px]  ' />
+              <img src="/images/device2.png" alt="" className=' xl:w-[24px] xl:h-[24px] w-[16px]  ' />
             </div>
             <div>
-              <p className='text-[16px] font-[400] font-Regular  text-center   '>Desktop</p>
+              <p className='text-[16px] font-[400] font-Regular  text-center  ml-[16px] xl:ml-0  '>Desktop</p>
             </div>
 
           </div>
           <div>
-            <p className='text-[18px] font-[700] font-BOLD text-[#1a2b88]  xl:ml-[47px]  '>2.76%</p>
+            <p className='text-[18px] font-[700] font-BOLD text-[#1a2b88]  xl:ml-[47px]  ml-[16px]  '>2.76%</p>
           </div>
 
         </div>
@@ -129,15 +129,15 @@ const SalesFunnel = () => {
 
           <div className='flex  justify-center items-center'>
             <div className='bg-[#F2F1FF] xl:w-[44px] xl:h-[44px]  xl:mr-[14px]  flex justify-center items-center '>
-              <img src="/images/device3.svg" alt="" className=' xl:w-[20px] xl:h-[20px] md:w-[20px] ' />
+              <img src="/images/device3.svg" alt="" className=' xl:w-[20px] xl:h-[20px] w-[20px] ' />
             </div>
             <div>
-              <p className='text-[16px] font-[400] font-Regular text-center '>Tablet</p>
+              <p className='text-[16px] font-[400] font-Regular text-center  ml-[16px] xl:ml-0 '>Tablet</p>
             </div>
 
           </div>
           <div>
-            <p className='text-[18px] font-[700] font-BOLD text-[#1a2b88]  xl:ml-[55px]  '>0.82%</p>
+            <p className='text-[18px] font-[700] font-BOLD text-[#1a2b88]  xl:ml-[55px]  ml-[16px]  '>0.82%</p>
           </div>
 
         </div>

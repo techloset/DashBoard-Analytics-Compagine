@@ -4,7 +4,7 @@ import Main from './pages/main/Main.jsx'
 
 const App = () => {
   return (
-    <div className='xl:flex md:flex xl:bg-[#f8fafb]'>
+    <div className='xl:flex flex  '>
       <SideBar />
       <Main />
     </div>
