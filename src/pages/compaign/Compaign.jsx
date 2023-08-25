@@ -23,29 +23,29 @@ const Compaign = () => {
         {/* 2nd row */}
         <div className=' xl:font-Regular xl:flex justify-evenly flex  xl:text-[16px] xl:font-[400] text-[#939393] '>
 
-          <div className=' xl:ml-[30px] xl:mt-[27px] xl:mr-[183px] lg:ml-[30px] lg:mt-[27px] lg:mr-[183px]'>
+          <div className=' xl:ml-[30px] xl:mt-[27px] xl:mr-[183px] lg:ml-[30px] mt-[27px] lg:mr-[183px]'>
             <p>Campaign</p>
           </div>
 
-          <div className='xl:mt-[27px] xl:mr-[59px] lg:mt-[27px] lg:mr-[59px]'>
+          <div className='xl:mt-[27px] xl:mr-[59px] mt-[27px] lg:mr-[59px]'>
             <p>Impressions</p>
           </div>
 
-          <div className='xl:mt-[27px] xl:mr-[64px] lg:mt-[27px] lg:mr-[64px]'>
+          <div className='xl:mt-[27px] xl:mr-[64px] mt-[27px] lg:mr-[64px]'>
             <p>Clicks</p>
           </div>
 
-          <div className='xl:mt-[27px] xl:mr-[94px] lg:mt-[27px] lg:mr-[94px]'>
+          <div className='xl:mt-[27px] xl:mr-[94px] mt-[27px] lg:mr-[94px]'>
             <p>CPC</p>
           </div>
 
-          <div className='xl:mt-[27px] xl:mr-[49px] lg:mt-[27px] lg:mr-[49px]'>
+          <div className='xl:mt-[27px] xl:mr-[49px] mt-[27px] lg:mr-[49px]'>
             <p>Spend</p>
           </div>
 
         </div>
 
-        <img src="/images/Line-19.png" alt="" className='xl:w-[696px] xl:mt-[18px] xl:ml-[30px] xl:mr-[33px] bg-black ' />
+        <img src="/images/Line-19.png" alt="" className='w-full xl:w-[696px] xl:mt-[18px] xl:ml-[30px] xl:mr-[33px] bg-black ' />
         {/* Google */}
 
         <div className=' xl:mt-[20px] mt-[20px] flex   xl:ml-[38px] lg:ml-[38px]  items-center justify-evenly    xl:text-[16px] font-[700] font-BOLD'>
@@ -54,7 +54,7 @@ const Compaign = () => {
             <img src="/images/insta.svg" alt="" />
           </div>
 
-          <div className=' xl:mr-[137px] lg:mr-[137px] ml-[-40px] lg:ml-0'>
+          <div className=' xl:mr-[137px] lg:mr-[137px] md:ml-[-40px] ml-[-10px] lg:ml-0'>
             <p className=' xl:w-[86px] '>Google Ads</p>
           </div>
 
@@ -79,11 +79,11 @@ const Compaign = () => {
 
         <div className=' flex items-center justify-evenly  xl:ml-[38px] xl:mt-[20px] lg:ml-[38px] mt-[20px]  xl:text-[16px] font-[700] xl:font-BOLD  '>
 
-          <div className=' lg:mr-[16px] xl:mr-[16px] xl:w-[35px] xl:h-[35px] ml-[10px]   rounded-[17.5px] bg-[#253174] shadow-3xc xl:flex xl:justify-center xl:items-center '>
+          <div className=' lg:mr-[16px] xl:mr-[16px] xl:w-[35px] xl:h-[35px] xl:ml-0 ml-[10px]   rounded-[17.5px] bg-[#253174] shadow-3xc xl:flex xl:justify-center xl:items-center '>
             <img src="/images/tiktok.svg" alt="" className='xl:w-[17.5] xl:h-[20px] ' />
           </div>
 
-          <div className='xl:mr-[171px] lg:mr-[171px] ml-[-20px] mr-[20px] lg:ml-0 xl:ml-0 '>
+          <div className='xl:mr-[171px] lg:mr-[171px] md:ml-[-20px]  mr-[20px]   lg:ml-0 xl:ml-0 '>
             <p className=' xl:h-[19px] xl:w-[51px] '>Tik Tok</p>
           </div>
 
@@ -147,7 +147,7 @@ const Compaign = () => {
             <img src="/images/google.svg" alt="" className=' ' />
           </div>
 
-          <div className=' lg:mr-[141px] ml-[-40px] lg:ml-0 '>
+          <div className=' lg:mr-[141px] md:ml-[-40px] ml-[-10px] lg:ml-0 '>
             <p className=' '>Instagram</p>
           </div>
 
@@ -173,13 +173,13 @@ const Compaign = () => {
 
 
       {/* Top Countries  pannel*/}
-      <div className=' w-[50%] mt-[30px] xl:mt-0 mx-auto xl:h-[326px]  xl:w-[287px]  xl:ml-[36px] border-2 bg-[#ffffff] border-solid rounded-[20px] border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)]'>
+      <div className=' w-[50%] mx-auto  mt-[30px] xl:mt-0 xl:h-[326px]  xl:w-[287px]  xl:ml-[36px] border-2 bg-[#ffffff] border-solid rounded-[20px] border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)]'>
 
         {/* heading */}
-        <p className='text-[22.4px] font-[700] font-BOLD xl:ml-[30px] xl:mt-[30px] xl:mr-[111px] xl:w-[146px] xl:mx-0 mx-auto ml-[110px] w-[50%] '>Top Countries</p>
+        <p className=' xl:text-[22.4px] text-[18px] font-[700] font-BOLD xl:ml-[30px] xl:mt-[30px] xl:mr-[111px] xl:w-[146px] xl:mx-0 mx-auto w-full ml-[24px] '>Top Countries</p>
 
         {/* united states*/}
-        <div className=' flex justify-center items-center  xl:w-[215px] xl:h-[49px] xl:mt-[27px] xl:ml-[30px] xl:mr-[42px] mt-[15px] '>
+        <div className=' flex justify-center items-center  xl:w-[215px] xl:h-[49px] xl:mt-[27px] xl:ml-[30px] xl:mr-[42px] mt-[25px] '>
 
           <div className='flex justify-center items-center'>
 
@@ -193,13 +193,13 @@ const Compaign = () => {
 
           </div>
           <div>
-            <p className='text-[18px] font-[700] font-BOLD text-[#1a2b88]  xl:ml-[20px] '>48%</p>
+            <p className='text-[18px] font-[700] font-BOLD text-[#1a2b88]  xl:ml-[20px] ml-[10px] '>48%</p>
           </div>
 
         </div>
 
         {/* united kingdom*/}
-        <div className=' flex justify-center items-center  xl:w-[215px] xl:h-[49px] xl:mt-[18px] xl:ml-[30px] xl:mr-[42px] mt-[15px] '>
+        <div className=' flex justify-center items-center  xl:w-[215px] xl:h-[49px] xl:mt-[18px] xl:ml-[30px] xl:mr-[42px] mt-[25px] '>
 
           <div className='flex justify-center items-center'>
             <div className=' mr-[15px]  xl:mr-[16px]  flex justify-center items-center '>
@@ -211,13 +211,13 @@ const Compaign = () => {
 
           </div>
           <div>
-            <p className='text-[18px] font-[700] font-BOLD text-[#1a2b88]  xl:ml-[16px] '>12%</p>
+            <p className='text-[18px] font-[700] font-BOLD text-[#1a2b88]  xl:ml-[16px] ml-[10px] '>12%</p>
           </div>
 
         </div>
 
         {/* swizerland states*/}
-        <div className=' flex justify-center items-center  xl:w-[215px] xl:h-[49px] xl:mt-[18px] xl:ml-[30px] xl:mr-[42px] mt-[15px] '>
+        <div className='hidden  xl:flex xl:justify-center xl:items-center  xl:w-[215px] xl:h-[49px] xl:mt-[18px] xl:ml-[30px] xl:mr-[42px] mt-[25px] '>
 
           <div className='flex justify-center items-center'>
 
@@ -231,7 +231,28 @@ const Compaign = () => {
 
           </div>
           <div>
-            <p className='text-[18px] font-[700] font-BOLD text-[#1a2b88]  xl:ml-[35px] '>9%</p>
+            <p className='text-[18px] font-[700] font-BOLD text-[#1a2b88]  xl:ml-[35px] ml-[10px] '>9%</p>
+          </div>
+
+        </div>
+
+
+        {/* mobile swizerland */}
+
+
+        <div className=' flex justify-center items-center   mt-[25px] xl:hidden'>
+
+          <div className='flex justify-center items-center'>
+            <div className=' mr-[15px]  xl:mr-[16px]  flex justify-center items-center '>
+              <img src="/images/sweat.png" alt="" className='  w-[25px] h-[25px] ' />
+            </div>
+            <div>
+              <p className='text-[16px] font-[700] font-BOLD  text-center   '>Switzerland</p>
+            </div>
+
+          </div>
+          <div>
+            <p className='text-[18px] font-[700] font-BOLD text-[#1a2b88]  xl:ml-[16px] ml-[30px] '>9%</p>
           </div>
 
         </div>

@@ -41,7 +41,7 @@ export const options = {
 const SalesFunnel = () => {
 
   return (
-    <div className='xl:w-[1082px] flex xl:mt-[27px] md:mt-[30px] xl:mb-0 flex-col xl:flex-row  '  >
+    <div className='xl:w-[1082px] flex xl:mt-[27px] md:mt-[30px] xl:mb-0 flex-col xl:flex-row  mt-[25px] '  >
 
 
 
@@ -49,15 +49,15 @@ const SalesFunnel = () => {
       <div className='  xl:w-[759px] w-[100%] xl:h-[334px] bg-[#ffffff]   border-2 border-solid border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)] rounded-[20px]'> 
       
 
-      <div className='flex font-BOLD  md:justify-between'>
+      <div className='flex font-BOLD  justify-between'>
 
-        <div className='md:mt-[12px]  ml-[30px] xl:mt-[28px] md:mr-[220px] xl:mr-[450px]  xl:w-[130px]'>
+        <div className='mt-[12px]  ml-[30px] xl:mt-[28px] mr-[220px] xl:mr-[450px]  xl:w-[130px]'>
           <p className='xl:text-[22.4px] font-[700] '> Sales Funnel</p>
 
         </div>
-        <div className='md:mr-[20px] md:w-[110px] xl:w-[119px] h-[37px] rounded-[12px] bg-[#f6f6f6] xl:mt-[28px] md:mt-[10px] xl:mr-[30px] flex justify-center  items-center '>
+        <div className='mr-[20px] w-[110px] xl:w-[119px] h-[37px] rounded-[12px] bg-[#f6f6f6] xl:mt-[28px] mt-[10px] xl:mr-[30px] flex justify-center  items-center '>
           
-          <p className='md:text-[12px] xl:text-[14px] xl:font-[700]  text-[#1a2b88]'>This Month</p> 
+          <p className='text-[12px] xl:text-[14px] xl:font-[700]  text-[#1a2b88]'>This Month</p> 
           <img src="/images/down.svg" alt="" />
           
         </div>
@@ -65,7 +65,7 @@ const SalesFunnel = () => {
 
 {/* chart */}
       <div className='xl:ml-[35px] mt-[25px]  xl:mb-[30px] md:ml-[20px] lg:ml-0 '>
-        <img src="/images/Line-red.png" alt="" className="absolute z-10 ml-[293px] xl:mt-[35px]"/>
+        <img src="/images/Line-red.png" alt="" className="absolute z-10 ml-[293px] xl:mt-[35px] hidden xl:block"/>
       <Chart
       chartType="AreaChart"
       width="100%"

@@ -174,7 +174,7 @@ const SideBar = () => {
 
 
                             {/* avatar */}
-                            <div className='bg-blue-500 flex w-[170px] h-[40px] mt-[240.06px] ml-[21px] mb-[44px]  '>
+                            <div className=' flex w-[170px] h-[40px] mt-[240.06px] ml-[21px] mb-[44px]  '>
 
                                 <div className='w-[30px] h-[30px] my-auto'>
                                     <img src="/images/imagee.png" alt="" />
