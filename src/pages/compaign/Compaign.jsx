@@ -46,11 +46,11 @@ const Compaign = () => {
         </div>
 
         <img src="/images/Line-19.png" alt="" className='xl:w-[696px] xl:mt-[18px] xl:ml-[30px] xl:mr-[33px] '/>
-        {/* 3rd row */}
+        {/* Google */}
 
-        <div className='xl:mt-[20px] flex  items-center    xl:text-[16px] font-[700] font-BOLD'>
+        <div className='xl:mt-[20px] flex  xl:ml-[38px]  items-center     xl:text-[16px] font-[700] font-BOLD'>
 
-          <div className=' xl:ml-[38px]  xl:mr-[16px] xl:w-[35px] xl:h-[35px] rounded-[17.5px] bg-[#253174] shadow-3xc flex justify-center items-center'>
+          <div className='  xl:mr-[16px] xl:w-[35px] xl:h-[35px] rounded-[17.5px] bg-[#253174] shadow-3xc flex justify-center items-center'>
             <img src="/images/insta.svg" alt="" />
           </div>
 
@@ -77,14 +77,14 @@ const Compaign = () => {
 
         {/* tiktok */}
 
-        <div className='flex items-center xl:mt-[20px]  xl:text-[16px] font-[700] font-BOLD '>
+        <div className=' flex items-center xl:ml-[38px] xl:mt-[20px]  xl:text-[16px] font-[700] font-BOLD '>
 
-          <div className=' xl:ml-[38px]  xl:mr-[16px] xl:w-[35px] xl:h-[35px] rounded-[17.5px] bg-[#253174] shadow-3xc flex justify-center items-center'>
-            <img src="/images/tiktok.svg" alt="" />
+          <div className='  xl:w-[35px] xl:h-[35px]   rounded-[17.5px] bg-[#253174] shadow-3xc flex justify-center items-center'>
+            <img src="/images/tiktok.svg" alt="" className='w-[17.5px] h-[20px] '/>
           </div>
 
-          <div className=' xl:mr-[171px] '>
-            <p className='xl:w-[60px] xl:h-[19px]'>Tik Tok</p>
+          <div className=' xl:mr-[171px] xl:ml-[16px]'>
+            <p className='xl:w-[51px] xl:h-[19px]'>Tik Tok</p>
           </div>
 
           <div className=' xl:mr-[93px]'>
@@ -106,9 +106,9 @@ const Compaign = () => {
 
         {/* Insta */}
 
-        <div className='flex items-center xl:mt-[20px]  xl:text-[16px] font-[700] font-BOLD '>
+        <div className='flex items-center xl:mt-[20px] xl:ml-[38px]  xl:text-[16px] font-[700] font-BOLD '>
 
-          <div className=' xl:ml-[38px]  xl:mr-[16px] xl:w-[35px] xl:h-[35px] rounded-[17.5px] bg-[#253174] shadow-3xc flex justify-center items-center'>
+          <div className='  xl:mr-[16px] xl:w-[35px] xl:h-[35px] rounded-[17.5px] bg-[#253174] shadow-3xc flex justify-center items-center'>
             <img src="/images/google.svg" alt="" />
           </div>
 
