@@ -83,9 +83,9 @@ const SideBar = () => {
                     <img src="/images/imagee.png" alt="" />
                 </div>
                 <div className=' xl:font-BOLD xl:flex xl:items-center xl:ml-[16px]'>
-                    <p className='xl:text:[18px] font-[700]  '>Gavano</p>
+                    <p className='xl:text-[18px] font-[700]  '>Gavano</p>
                 </div>
-                <div className='xl:flex xl:justify-center xl:items-center xl:w-[30.5] xl:h-[30.5]  xl:ml-[38px]'>
+                <div className='xl:flex xl:justify-center xl:items-center xl:w-[30.54] xl:h-[30.54]  xl:ml-[38px]'>
                     <img src="/images/more.svg" alt="" />
                 </div>
 
