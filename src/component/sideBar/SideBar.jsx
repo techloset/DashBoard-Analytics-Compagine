@@ -16,9 +16,9 @@ const SideBar = () => {
                     <img src="/images/icon.svg" alt="" />
                 </div>
 
-                <div className=' xl:text-[35.4px] text-[#001dc0]  xl:ml-[8px] '>
-                    <span className='font-Regular xl:font-[400]  xl:tracking-[0.35px]'> Ads </span>
-                    <span className=' font-BOLD xl:font-[700] '> litics </span>
+                <div className=' xl:text-[35.4px] text-[#001dc0]  xl:ml-[8px]  '>
+                    <span className='font-Regular xl:font-[400]    xl:tracking-[0.35px]'> Ads </span>
+                    <span className=' font-BOLD xl:font-[700] xl:ml-[-5px] '> litics </span>
 
                 </div>
             </div>
