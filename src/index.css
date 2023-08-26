@@ -4,13 +4,34 @@
 
 
 @font-face {
-    font-family: "REGULAR";
-    src: url("../public/fonts/Product\ Sans\ Regular.ttf");
-  }
+  font-family: "REGULAR";
+  src: url("../public/fonts/Product\ Sans\ Regular.ttf");
+}
 
 @font-face {
-    font-family: "BOLD";
-    src: url("../public/fonts/Product\ Sans\ Bold.ttf");
+  font-family: "BOLD";
+  src: url("../public/fonts/Product\ Sans\ Bold.ttf");
+}
+
+
+@layer components {
+  .active  {
+
+    filter: grayscale(0) !important;
+    color: #1a2b88 !important;
+    font-weight: 700 !important;
+    box-shadow: 0px 27.1px 67.75px #0000000d;
+    background-color: #ffffff;
+
+    border: 1.36px solid;
+    border-color: #efeeeb;
+    border-radius: 16.26px;
+
+
+
+
   }
 
+
   
+}

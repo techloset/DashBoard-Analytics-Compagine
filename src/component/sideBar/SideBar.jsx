@@ -1,8 +1,13 @@
 // import React from 'react'
 import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 
 
 const SideBar = () => {
+
+
+   
+
     const [navbar, setNavbar] = useState(false)
     return (
         <div className="xl:w-[266px]   ">
@@ -25,50 +30,54 @@ const SideBar = () => {
 
 
             {/* side bar content */}
-            <div className='xl:w-[231px]  xl:ml-[35px] xl:h-[557px] xl:mt-[56px] hidden xl:block  font-Regular'>
+            <div className='xl:w-[231px]  xl:ml-[35px] xl:h-[557px] xl:mt-[56px] hidden xl:block  font-Regular '>
 
                 <ul className="    ">
 
                     <div className=''>
 
-                        <li className=' xl:flex xl:items-center xl:gap-2 xl:h-[61.6px]  xl:mx-auto hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff] xl:border-1.36 xl:border-solid border-[#efeeeb] ' >
-                            <img src="/images/dashboard.svg" alt="" className='xl:w-[28.43px] xl:h-[28.43px] xl:ml-[33.17px] ' />
-                            Dashboard
+                        <NavLink to='#' >
+                        <li className='active xl:flex xl:items-center xl:gap-2 xl:h-[61.6px]  xl:mx-auto  filter grayscale    xl:text-[19px] xl:font-[400]      ' >
+                            <img  src="/images/dashboard.svg" alt="" className=' xl:w-[28.43px] xl:h-[28.43px] xl:ml-[33.17px]   ' />
+                            <p>Dashboard</p>
                         </li>
+                        </NavLink>
 
 
-                        <li className=' xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]   hover:bg-white hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff] xl:border-1.36 xl:border-solid ' >
-                            <img src="/images/compagin.svg" alt="" className=' xl:w-[29px] xl:h-[29px] xl:ml-[33.17px]' />
+                        
+                        <li className=' xl:mt-[20px] xl:flex  xl:items-center  xl:gap-2 xl:mx-auto xl:h-[61.6px]   hover:bg-white filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  xl:hover:border-[1.36px] xl:border-solid ' >
+                            <img src="/images/compagin.png" alt="" className=' xl:w-[29px] xl:h-[29px] xl:ml-[33.17px]   '  />
                             Compaign
                         </li>
+                        
 
-                        <li className='xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]   hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb] xl:border-1.36 xl:border-solid ' >
-                            <img src="/images/personalcard.svg" alt="" className='xl:ml-[33.17px] xl:w-[28px] xl:h-[28px]' />
+                        <li className='xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]   hover:shadow-[0_27px_67px_0px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb] xl:hover:border-[1.36px] xl:border-solid ' >
+                            <img src="/images/personalcard.png" alt="" className='xl:ml-[33.17px] xl:w-[28px] xl:h-[28px] ' />
                             Audience
                         </li>
 
-                        <li className='xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]   hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb] xl:border-1.36 xl:border-solid ' >
-                            <img src="/images/performance.svg" alt="" className='xl:ml-[33.17px] xl:w-[28.43px] xl:h-[28.43px] fill-blue-500' />
+                        <li className='xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]   hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb]   xl:hover:border-[1.36px] xl:border-solid ' >
+                            <img src="/images/profromance.png" alt="" className='xl:ml-[33.17px] xl:w-[28.43px] xl:h-[28.43px] fill-blue-500' />
                             performance
                         </li>
 
-                        <li className='xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb] xl:border-1.36 xl:border-solid ' >
-                            <img src="/images/like.svg" alt="" className='xl:ml-[33.17px] xl:w-[30px] xl:h-[30px]' />
+                        <li className='xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb]  xl:hover:border-[1.36px] xl:border-solid ' >
+                            <img src="/images/like.png" alt="" className='xl:ml-[33.17px] xl:w-[30px] xl:h-[30px]' />
                             Promote
                         </li>
 
 
                         <div className='xl:mt-[10px]'>
-                            <img src="/images/line.png" alt="" className=' xl:w-[231px]' />
+                            <img   src="/images/line.png" alt="" className=' xl:w-[231px]'  />
                         </div>
 
-                        <li className='xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb] xl:border-1.36 xl:border-solid ' >
-                            <img src="/images/profile.svg" alt="" className='xl:ml-[33.17px] w-[27.1px] h-[27.1px]' />
+                        <li className='xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb]  xl:hover:border-[1.36px] xl:border-solid ' >
+                            <img src="/images/profile.png" alt="" className='xl:ml-[33.17px] w-[27.1px] h-[27.1px]' />
                             Profile
                         </li>
 
-                        <li className='xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff] xl:border-1.36 xl:border-solid ' >
-                            <img src="/images/setting.svg" alt="" className='hover:color-[#1a2b88] xl:ml-[33.17px] xl:w-[27.1px] xl:h-[27.1px]  ' />
+                        <li className='xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] filter grayscale hover:grayscale-0 xl:text-[19px] hover:xl:font-[700] xl:font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  xl:hover:border-[1.36px] xl:border-solid ' >
+                            <img src="/images/setting.png" alt="" className='hover:color-[#1a2b88] xl:ml-[33.17px] xl:w-[27.1px] xl:h-[27.1px]  ' />
                             Setting
                         </li>
                     </div>

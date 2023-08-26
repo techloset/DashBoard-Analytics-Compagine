@@ -4,7 +4,7 @@ import { Chart } from "react-google-charts";
 
 
 export const data = [
-  ["top ", " "],
+  ["top ", ""],
   ["10", 42000],
   ["11", 42000],
   ["12", 62000],
@@ -22,7 +22,7 @@ export const data = [
 ];
 
 export const options = {
-  // title: "Sales Funnel",
+  title: "Sales Funnel",
   hAxis: { titleTextStyle: { color: "#3D37F133" } },
   vAxis: { minValue: "0" },
   
@@ -73,6 +73,9 @@ const SalesFunnel = () => {
       data={data}
       options={options}
     />
+
+
+
       </div>
       
       
