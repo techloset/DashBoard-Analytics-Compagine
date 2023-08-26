@@ -4,7 +4,7 @@ import { Chart } from "react-google-charts";
 
 
 export const data = [
-  ["top ", ""],
+  ["top", " "],
   ["10", 42000],
   ["11", 42000],
   ["12", 62000],
@@ -21,17 +21,17 @@ export const data = [
   ["24", 60000]
 ];
 
-export const options = {
-  title: "Sales Funnel",
-  hAxis: { titleTextStyle: { color: "#3D37F133" } },
-  vAxis: { minValue: "0" },
-  
-  backgroundColor: "#3D37F133",
-  is3D: "no",
-  chartArea: { width: "80%", height: "80%" },
+// export const options = {
+//   // title: "Sales Funnel",
+//   hAxis: { titleTextStyle: { color: "#ffffff" } },
+//   vAxis: { minValue: "0" },
 
-  
-};
+//   backgroundColor: "#ffffff",
+//   is3D: "no",
+//   chartArea: { width: "80%", height: "80%" },
+
+
+// };
 
 
 
@@ -45,40 +45,64 @@ const SalesFunnel = () => {
 
 
 
-{/* sales funnel */}
-      <div className='  xl:w-[759px] w-[100%] xl:h-[334px] bg-[#ffffff]   border-2 border-solid border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)] rounded-[20px]'> 
-      
+      {/* sales funnel */}
+      <div className='  xl:w-[759px] w-[100%] xl:h-[334px] bg-[#ffffff]   border-2 border-solid border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)] rounded-[20px]'>
 
-      <div className='flex font-BOLD  justify-between'>
 
-        <div className='mt-[12px]  ml-[30px] xl:mt-[28px] mr-[220px] xl:mr-[450px]  xl:w-[130px]'>
-          <p className='xl:text-[22.4px] font-[700] '> Sales Funnel</p>
+        <div className='flex font-BOLD  justify-between'>
+
+          <div className='mt-[12px]  ml-[30px] xl:mt-[28px] mr-[220px] xl:mr-[450px]  xl:w-[130px]'>
+            <p className='xl:text-[22.4px] font-[700] '> Sales Funnel</p>
+
+          </div>
+          <div className='mr-[20px] w-[110px] xl:w-[119px] h-[37px] rounded-[12px] bg-[#f6f6f6] xl:mt-[28px] mt-[10px] xl:mr-[30px] flex justify-center  items-center '>
+
+            <p className='text-[12px] xl:text-[14px] xl:font-[700]  text-[#1a2b88]'>This Month</p>
+            <img src="/images/down.svg" alt="" />
+
+          </div>
+        </div>
+
+        {/* chart */}
+        <div className='xl:ml-[35px] mt-[25px]  xl:mb-[30px] md:ml-[20px] lg:ml-0 '>
+          <img src="/images/Line-red.png" alt="" className="absolute z-10 ml-[293px] xl:mt-[35px] hidden xl:block" />
+          <Chart
+            chartType="AreaChart"
+            width="100%"
+            height="220px"
+            data={data}
+            options={
+              {
+                // hAxis: { titleTextStyle: { color: "#ffffff" } },
+                vAxis: { minValue: "0" },
+                // hAxis: { title: 'Year', titleTextStyle: { color: '#03f0fc', } },
+
+                color: ['#ffffff', '#03f0fc'],
+                series: {
+                  0: { color: '#1A2B88' }, // Sales line color
+                },
+                areaOpacity: 0.28,
+                
+                hAxis: {
+                  gridlines: {
+                    color: '', // Hide the solid gridlines
+                    count: 10, // You can adjust the number of dotted lines here
+                  }
+                },
+
+
+
+
+                chartArea: { width: "80%", height: "80%" },
+              }
+            }
+          />
+
+
 
         </div>
-        <div className='mr-[20px] w-[110px] xl:w-[119px] h-[37px] rounded-[12px] bg-[#f6f6f6] xl:mt-[28px] mt-[10px] xl:mr-[30px] flex justify-center  items-center '>
-          
-          <p className='text-[12px] xl:text-[14px] xl:font-[700]  text-[#1a2b88]'>This Month</p> 
-          <img src="/images/down.svg" alt="" />
-          
-        </div>
-      </div>
-
-{/* chart */}
-      <div className='xl:ml-[35px] mt-[25px]  xl:mb-[30px] md:ml-[20px] lg:ml-0 '>
-        <img src="/images/Line-red.png" alt="" className="absolute z-10 ml-[293px] xl:mt-[35px] hidden xl:block"/>
-      <Chart
-      chartType="AreaChart"
-      width="100%"
-      height="220px"
-      data={data}
-      options={options}
-    />
 
 
-
-      </div>
-      
-      
       </div>
 
 
