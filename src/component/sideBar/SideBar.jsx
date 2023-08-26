@@ -58,7 +58,7 @@ const SideBar = () => {
 
                         <li className='xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]   hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb]   xl:hover:border-[1.36px] xl:border-solid ' >
                             <img src="/images/profromance.png" alt="" className='xl:ml-[33.17px] xl:w-[28.43px] xl:h-[28.43px] fill-blue-500' />
-                            performance
+                            Performance
                         </li>
 
                         <li className='xl:mt-[20px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb]  xl:hover:border-[1.36px] xl:border-solid ' >
