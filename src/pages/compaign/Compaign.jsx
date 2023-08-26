@@ -80,11 +80,11 @@ const Compaign = () => {
         <div className=' flex items-center justify-evenly  xl:ml-[38px] xl:mt-[20px] lg:ml-[38px] mt-[20px]  xl:text-[16px] font-[700] xl:font-BOLD  '>
 
           <div className=' lg:mr-[16px] xl:mr-[16px] xl:w-[35px] xl:h-[35px] xl:ml-0 ml-[10px]   rounded-[17.5px] bg-[#253174] shadow-3xc xl:flex xl:justify-center xl:items-center '>
-            <img src="/images/tiktok.svg" alt="" className='xl:w-[17.5] xl:h-[20px] ' />
+            <img src="/images/tiktok.svg" alt="" className='xl:w-[17.5px] xl:h-[20px] ' />
           </div>
 
           <div className='xl:mr-[171px] lg:mr-[171px] md:ml-[-20px]  mr-[20px]   lg:ml-0 xl:ml-0 '>
-            <p className=' xl:h-[19px] xl:w-[51px] '>Tik Tok</p>
+            <p className=' xl:h-[19px] xl:w-[53px]  bg-blue-500'>Tik Tok</p>
           </div>
 
           <div className=' xl:mr-[93px] lg:mr-[93px]  '>
