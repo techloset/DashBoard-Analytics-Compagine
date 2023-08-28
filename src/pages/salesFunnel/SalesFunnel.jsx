@@ -112,7 +112,7 @@ const SalesFunnel = () => {
 
           <div className='flex  justify-center items-center'>
             <div className='bg-[#F2F1FF] xl:w-[44px] xl:h-[44px]   xl:mr-[14px]  flex justify-center items-center '>
-              <img src="/images/device2.png" alt="" className=' xl:w-[24px] xl:h-[24px] w-[16px]  ' />
+              <img src="/images/device3.svg" alt="" className=' xl:w-[24px] xl:h-[24px] w-[16px]  ' />
             </div>
             <div>
               <p className='text-[16px] font-[400] font-Regular  text-center  ml-[16px] xl:ml-0  '>Desktop</p>
@@ -131,7 +131,7 @@ const SalesFunnel = () => {
 
           <div className='flex  justify-center items-center'>
             <div className='bg-[#F2F1FF] xl:w-[44px] xl:h-[44px]  xl:mr-[14px]  flex justify-center items-center '>
-              <img src="/images/device3.svg" alt="" className=' xl:w-[20px] xl:h-[20px] w-[20px] ' />
+              <img src="/images/device2.png" alt="" className=' xl:w-[20px] xl:h-[20px] w-[20px] ' />
             </div>
             <div>
               <p className='text-[16px] font-[400] font-Regular text-center  ml-[16px] xl:ml-0 '>Tablet</p>
