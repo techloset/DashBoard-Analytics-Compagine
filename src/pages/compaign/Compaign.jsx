@@ -14,7 +14,7 @@ const Compaign = () => {
 
           <div className='xl:text-[22.4px] font-[700] xl:mt-[30px] xl:ml-[30px] mt-[30px] ml-[25px]  '>Campaign Performance</div>
 
-          <div className='flex justify-center items-center  xl:w-[80px] xl:h-[37px] bg-[#f6f6f6] mt-[27px]  mr-[33px] '>
+          <div className='flex justify-center items-center font-BOLD  xl:w-[80px] xl:h-[37px] bg-[#f6f6f6] mt-[27px]  mr-[33px] rounded-[12px] '>
             <p className='xl:text-[14px] font-[700] text-[#1A2B88]  '>See All</p>
           </div>
 
@@ -83,7 +83,7 @@ const Compaign = () => {
             <img src="/images/tiktok.svg" alt="" className='' />
           </div>
 
-          <div className='xl:mr-[171px] lg:mr-[171px] md:ml-[-20px]  xl:w-[60px]   mr-[20px]   lg:ml-0 xl:ml-0 '>
+          <div className='xl:mr-[171px] lg:mr-[171px] md:ml-[-20px]  xl:w-[55px]   mr-[20px]   lg:ml-0 xl:ml-0 '>
             <p className='     '>Tik Tok</p>
           </div>
 

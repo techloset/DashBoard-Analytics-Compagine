@@ -2,7 +2,6 @@ import { useState } from "react";
 import React from 'react'
 import { Chart } from "react-google-charts";
 
-
 export const data = [
   ["top", " "],
   ["10", 42000],
@@ -21,20 +20,17 @@ export const data = [
   ["24", 60000]
 ];
 
-// export const options = {
-//   // title: "Sales Funnel",
-//   hAxis: { titleTextStyle: { color: "#ffffff" } },
-//   vAxis: { minValue: "0" },
+export const options = {
+  // title: "Sales Funnel",
+  hAxis: { titleTextStyle: { color: "#ffffff" } },
+  vAxis: { minValue: "0" },
 
-//   backgroundColor: "#ffffff",
-//   is3D: "no",
-//   chartArea: { width: "80%", height: "80%" },
-
-
-// };
+  backgroundColor: "#ffffff",
+  is3D: "no",
+  chartArea: { width: "80%", height: "80%" },
 
 
-
+};
 
 
 
@@ -46,7 +42,7 @@ const SalesFunnel = () => {
 
 
       {/* sales funnel */}
-      <div className='  xl:w-[759px] w-[100%] xl:h-[334px] bg-[#ffffff]   border-2 border-solid border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)] rounded-[20px]'>
+      <div className=' relative  xl:w-[759px] w-[100%] xl:h-[334px] bg-[#ffffff]   border-2 border-solid border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)] rounded-[20px]'>
 
 
         <div className='flex font-BOLD  justify-between'>
@@ -64,44 +60,23 @@ const SalesFunnel = () => {
         </div>
 
         {/* chart */}
-        <div className='xl:ml-[35px] mt-[25px]  xl:mb-[30px] md:ml-[20px] lg:ml-0 '>
-          <img src="/images/Line-red.png" alt="" className="absolute z-10 ml-[293px] xl:mt-[35px] hidden xl:block" />
+        <div className=' xl:ml-[35px] mt-[25px]  xl:mb-[30px] md:ml-[20px] lg:ml-0 '>
           <Chart
             chartType="AreaChart"
             width="100%"
             height="220px"
             data={data}
-            options={
-              {
-                // hAxis: { titleTextStyle: { color: "#ffffff" } },
-                vAxis: { minValue: "0" },
-                // hAxis: { title: 'Year', titleTextStyle: { color: '#03f0fc', } },
-
-                color: ['#ffffff', '#03f0fc'],
-                series: {
-                  0: { color: '#1A2B88' }, // Sales line color
-                },
-                areaOpacity: 0.28,
-                
-                hAxis: {
-                  gridlines: {
-                    color: '', // Hide the solid gridlines
-                    count: 10, // You can adjust the number of dotted lines here
-                  }
-                },
-
-
-
-
-                chartArea: { width: "80%", height: "80%" },
-              }
-            }
+            options={options}
           />
-
 
 
         </div>
 
+        <img src="/images/Line-red.png" alt="" className="absolute z-10 lg:left-[40.7%]    xl:block top-[39%] xl:left-[43.5%] md:left-[42.3%] " />
+        <div className=" absolute  z-10 rounded-[4px] md:top-[31%] lg:left-[37%] md:left-[39%]  xl:left-[40%] xl:top-[34%] w-[55px] h-[19px] bg-[#1A2B88] xl:px-[8px] xl:py-[2px]  text-white xl:text-[12px] font-[400] ">
+          <p className="font-BOLD  "> 83,234</p>
+        </div>
+        <img src="/images/arrowdoo.svg" alt="" className="absolute  z-20 lg:left-[39.2%]  md:top-[36%] md:left-[41.5%] xl:left-[41.9%] xl:top-[38.5%] "  />
 
       </div>
 
