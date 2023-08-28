@@ -5,12 +5,14 @@
 
 @font-face {
   font-family: "REGULAR";
-  src: url("../public/fonts/Product\ Sans\ Regular.ttf");
+  /* src: url("../public/fonts/Product\ Sans\ Regular.ttf") format('truetype'); */
+  src: url("../public/fonts/ProductSansRegular.ttf") format('truetype') ;
 }
 
 @font-face {
   font-family: "BOLD";
-  src: url("../public/fonts/Product\ Sans\ Bold.ttf");
+  /* src: url("../public/fonts/Product\ Sans\ Bold.ttf") format('truetype'); */
+  src: url("../public/fonts/ProductSansBold.ttf") format('truetype');
 }
 
 
