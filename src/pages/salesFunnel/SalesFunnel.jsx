@@ -48,7 +48,7 @@ const SalesFunnel = () => {
         <div className='flex font-BOLD  justify-between'>
 
           <div className='mt-[12px]   ml-[30px] xl:mt-[28px] mr-[220px] xl:mr-[450px]  xl:w-[130px]'>
-            <p className='xl:text-[22.4px] font-[700] w-[100px] xl:w-0 '> Sales Funnel</p>
+            <p className='xl:text-[22.4px] font-[700] w-[100px] xl:w-auto '> Sales Funnel</p>
 
           </div>
           <div className='mr-[20px] w-[110px] xl:w-[119px] h-[37px] rounded-[12px] bg-[#f6f6f6] xl:mt-[28px] mt-[10px] xl:mr-[30px] flex justify-center  items-center '>
