@@ -14,7 +14,7 @@ const Compaign = () => {
 
           <div className='xl:text-[22.4px] font-[700] xl:mt-[30px] xl:ml-[30px] mt-[30px] ml-[25px]  '>Campaign Performance</div>
 
-          <div className='flex justify-center items-center font-BOLD  xl:w-[80px] xl:h-[37px] bg-[#f6f6f6] mt-[27px]  mr-[33px] rounded-[12px] '>
+          <div className='flex justify-center items-center font-BOLD  xl:w-[80px] xl:h-[37px] bg-[#f6f6f6] mt-[27px]  mr-[33px] rounded-[12px]  w-[70px] h-[35px] '>
             <p className='xl:text-[14px] font-[700] text-[#1A2B88]  '>See All</p>
           </div>
 
@@ -173,10 +173,10 @@ const Compaign = () => {
 
 
       {/* Top Countries  pannel*/}
-      <div className=' w-[50%] mx-auto  mt-[30px] xl:mt-0 xl:h-[326px]  xl:w-[287px]  xl:ml-[36px] border-2 bg-[#ffffff] border-solid rounded-[20px] border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)]'>
+      <div className=' w-[100%] mx-auto  mt-[30px] xl:mt-0 xl:h-[326px]  xl:w-[287px]  xl:ml-[36px] border-2 bg-[#ffffff] border-solid rounded-[20px] border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)]'>
 
         {/* heading */}
-        <p className=' xl:text-[22.4px] text-[18px] font-[700] font-BOLD xl:ml-[30px] xl:mt-[30px] xl:mr-[111px] xl:w-[146px] xl:mx-0 mx-auto w-full ml-[24px] '>Top Countries</p>
+        <p className=' xl:text-[22.4px] text-[18px] font-[700] font-BOLD xl:ml-[30px] xl:mt-[30px] xl:mr-[111px] xl:w-[146px] xl:mx-0  w-[80%] mx-auto bg-green-500  '>Top Countries</p>
 
         {/* united states*/}
         <div className=' flex justify-center items-center  xl:w-[215px] xl:h-[49px] xl:mt-[27px] xl:ml-[30px] xl:mr-[42px] mt-[25px] '>

@@ -30,14 +30,14 @@ const SideBar = () => {
 
 
             {/* side bar content */}
-            <div className='xl:w-[231px]  xl:ml-[35px] xl:h-[557px] xl:mt-[56px] hidden xl:block  font-Regular '>
+            <div className=' xl:w-[231px]  xl:ml-[35px]  xl:mt-[56px] hidden xl:block  font-Regular '>
 
                 <ul className="    ">
 
                     <div className=''>
 
                         <NavLink to='#' >
-                            <li className='xl:mb-[-18px] xl:mt-[-20px] active xl:flex xl:items-center xl:gap-2 xl:h-[61.6px]  xl:mx-auto  filter grayscale    xl:text-[19px] xl:font-[400]      ' >
+                            <li className='xl:mb-[-18px] xl:mt-[-20px] active xl:flex xl:items-center xl:gap-6 xl:h-[61.6px]  xl:mx-auto  filter grayscale    xl:text-[19px] xl:font-[400]      ' >
                                 <img src="/images/dashboard.svg" alt="" className=' xl:w-[28.43px] xl:h-[28.43px] xl:ml-[33.17px]   ' />
                                 <p>Dashboard</p>
                             </li>
@@ -45,23 +45,23 @@ const SideBar = () => {
 
 
 
-                        <li className=' xl:mt-[25px] xl:flex  xl:items-center  xl:gap-2 xl:mx-auto xl:h-[61.6px]   hover:bg-white filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  xl:hover:border-[1.36px] xl:border-solid ' >
+                        <li className=' xl:mt-[25px] xl:flex  xl:items-center  xl:gap-6 xl:mx-auto xl:h-[61.6px]   hover:bg-white filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  xl:hover:border-[1.36px] xl:border-solid ' >
                             <img src="/images/compagin.png" alt="" className=' xl:w-[29px] xl:h-[29px] xl:ml-[33.17px]   ' />
                             Compaign
                         </li>
 
 
-                        <li className='xl:mt-[25px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]   hover:shadow-[0_27px_67px_0px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb] xl:hover:border-[1.36px] xl:border-solid ' >
+                        <li className='xl:mt-[25px] xl:flex  xl:items-center xl:gap-6 xl:mx-auto xl:h-[61.6px]  hover:bg-white filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]   hover:shadow-[0_27px_67px_0px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb] xl:hover:border-[1.36px] xl:border-solid ' >
                             <img src="/images/personalcard.png" alt="" className='xl:ml-[33.17px] xl:w-[28px] xl:h-[28px] ' />
                             Audience
                         </li>
 
-                        <li className='xl:mt-[25px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]   hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb]   xl:hover:border-[1.36px] xl:border-solid ' >
+                        <li className='xl:mt-[25px] xl:flex  xl:items-center xl:gap-6 xl:mx-auto xl:h-[61.6px]  hover:bg-white filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]   hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb]   xl:hover:border-[1.36px] xl:border-solid ' >
                             <img src="/images/profromance.png" alt="" className='xl:ml-[33.17px] xl:w-[28.43px] xl:h-[28.43px] fill-blue-500' />
                             Performance
                         </li>
 
-                        <li className='xl:mt-[25px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb]  xl:hover:border-[1.36px] xl:border-solid ' >
+                        <li className='xl:mt-[25px] xl:flex  xl:items-center xl:gap-6 xl:mx-auto xl:h-[61.6px]  hover:bg-white filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb]  xl:hover:border-[1.36px] xl:border-solid ' >
                             <img src="/images/like.png" alt="" className='xl:ml-[33.17px] xl:w-[30px] xl:h-[30px]' />
                             Promote
                         </li>
@@ -71,12 +71,12 @@ const SideBar = () => {
                             <img src="/images/line.png" alt="" className=' xl:w-[231px]' />
                         </div>
 
-                        <li className='xl:mt-[25px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb]  xl:hover:border-[1.36px] xl:border-solid ' >
+                        <li className='xl:mt-[25px] xl:flex  xl:items-center xl:gap-6 xl:mx-auto xl:h-[61.6px]  hover:bg-white filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px] hover:xl:font-[700] xl:font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  border-[#efeeeb]  xl:hover:border-[1.36px] xl:border-solid ' >
                             <img src="/images/profile.png" alt="" className='xl:ml-[33.17px] w-[27.1px] h-[27.1px]' />
                             Profile
                         </li>
 
-                        <li className='xl:mt-[25px] xl:flex  xl:items-center xl:gap-2 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] filter grayscale hover:grayscale-0 xl:text-[19px] hover:xl:font-[700] xl:font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  xl:hover:border-[1.36px] xl:border-solid ' >
+                        <li className='xl:mt-[25px] xl:flex  xl:items-center xl:gap-6 xl:mx-auto xl:h-[61.6px]  hover:bg-white hover:text-[#1a2b88] filter grayscale hover:grayscale-0 xl:text-[19px] hover:xl:font-[700] xl:font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  xl:rounded-2xl  xl:hover:bg-[#ffffff]  xl:hover:border-[1.36px] xl:border-solid ' >
                             <img src="/images/setting.png" alt="" className='hover:color-[#1a2b88] xl:ml-[33.17px] xl:w-[27.1px] xl:h-[27.1px]  ' />
                             Setting
                         </li>
@@ -124,12 +124,12 @@ const SideBar = () => {
 
 
 
-            <div className=' xl:hidden w-[25%] '>
+            <div className=' xl:hidden w-[200px]  '>
 
 
                 {/* onClick={() => setNavbar(!navbar)} */}
 
-                <img src='/images/icon.svg' onClick={() => setNavbar(!navbar)} class=" hover:bg-blue-300 ml-[50px] mt-[20px] " />
+                <img src='/images/icon.svg' onClick={() => setNavbar(!navbar)} class=" hover:bg-blue-300 ml-[80px] mt-[20px] " />
                 {
                     navbar ? (
 
@@ -138,44 +138,45 @@ const SideBar = () => {
 
                                 <div className=''>
 
-                                    <li className='w-[150px] mt-[20px]  flex justify-center items-center gap-1.5 mx-auto h-[30.6px] hover:text-[#1a2b88] hover:bg-white text-[14px] font-[700]  hover:shadow-3xl  rounded-2xl   border-1.6 border-solid ' >
-                                        <img src="/images/dashboard.svg" alt="" className='w-[18px] h-[18px]' />
-                                        Dashboard
-                                    </li>
+                                    <NavLink to='#' >
+                                        <li className=' w-[150px] mt-[25px]  flex justify-center items-center  gap-1.5 mx-auto h-[40.6px] text-[14px] font-[700] active   filter grayscale    ' >
+                                            <img src="/images/dashboard.svg" alt="" className='w-[18px] h-[18px]' />
+                                            Dashboard
+                                        </li>
+                                    </NavLink>
 
-
-                                    <li className='w-[150px]  mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[40.6px]   hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700] hover:shadow-3xl  rounded-2xl   border-1.36 border-solid ' >
-                                        <img src="/images/compagin.svg" alt="" className='ml-[-8px] w-[19px] h-[19px]' />
+                                    <li className='w-[150px]   flex justify-center items-center gap-1.5 mx-auto h-[40.6px]   filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px]  font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  rounded-2xl  hover:bg-[#ffffff]  hover:border-[1.36px] border-solid  ' >
+                                        <img src="/images/compagin.png" alt="" className='ml-[-8px] w-[19px] h-[19px]' />
                                         Compaign
                                     </li>
 
-                                    <li className='w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700]  hover:shadow-3xl  rounded-2xl   border-1.36 border-solid ' >
-                                        <img src="/images/personalcard.svg" alt="" className='ml-[-10px] w-[18px] h-[18px]' />
+                                    <li className='w-[150px] mt-[25px] flex justify-center items-center gap-1.5 mx-auto h-[40.6px]   filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px]  font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  rounded-2xl  hover:bg-[#ffffff]  hover:border-[1.36px] border-solid ' >
+                                        <img src="/images/personalcard.png" alt="" className='ml-[-10px] w-[18px] h-[18px]' />
                                         Audience
                                     </li>
 
-                                    <li className='w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700]  hover:shadow-3xl  rounded-2xl   border-1.36 border-solid ' >
-                                        <img src="/images/performance.svg" alt="" className='ml-[11px] w-[18px] h-[28px]' />
+                                    <li className='w-[150px] mt-[25px] flex justify-center items-center gap-1.5 mx-auto h-[40.6px]   filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px]  font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  rounded-2xl  hover:bg-[#ffffff]  hover:border-[1.36px] border-solid  ' >
+                                        <img src="/images/profromance.png" alt="" className='ml-[11px] w-[18px] ' />
                                         performance
                                     </li>
 
-                                    <li className='w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700] hover:shadow-3xl  rounded-2xl  border-1.36 border-solid ' >
-                                        <img src="/images/like.svg" alt="" className='ml-[-15px] w-[20px] h-[20px]' />
+                                    <li className='w-[150px] mt-[25px] flex justify-center items-center gap-1.5 mx-auto h-[40.6px]   filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px]  font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  rounded-2xl  hover:bg-[#ffffff]  hover:border-[1.36px] border-solid ' >
+                                        <img src="/images/like.png" alt="" className='ml-[-15px] w-[20px] h-[20px]' />
                                         Promote
                                     </li>
 
 
-                                    <div className='w-[150px] mt-[10px] ml-[20px]'>
+                                    <div className='w-[150px] mt-[20px] ml-[20px]'>
                                         <img src="/images/line.png" alt="" className=' w-[231px]' />
                                     </div>
 
-                                    <li className='w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700] hover:shadow-3xl  rounded-2xl   border-1.36 border-solid ' >
-                                        <img src="/images/profile.svg" alt="" className='ml-[-35px] w-[18px] h-[18px]' />
+                                    <li className='w-[150px] mt-[25px] flex justify-center items-center gap-1.5 mx-auto h-[40.6px]   filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px]  font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  rounded-2xl  hover:bg-[#ffffff]  hover:border-[1.36px] border-solid ' >
+                                        <img src="/images/profile.png" alt="" className='ml-[-35px] w-[18px] h-[18px]' />
                                         profile
                                     </li>
 
-                                    <li className='w-[150px] mt-[20px] flex justify-center items-center gap-1.5 mx-auto h-[30.6px]  hover:bg-white hover:text-[#1a2b88] text-[14px] font-[700] hover:shadow-3xl  rounded-2xl  border-1.36 border-solid ' >
-                                        <img src="/images/setting.svg" alt="" className='ml-[-26px] w-[18px] h-[18px]' />
+                                    <li className='w-[150px] mt-[25px] flex justify-center items-center gap-1.5 mx-auto h-[40.6px]    filter grayscale hover:grayscale-0 hover:text-[#1a2b88] xl:text-[19px]  font-[400]  hover:shadow-[0_27.1px_67.5px_rgba(239,238,235,1)]  rounded-2xl  hover:bg-[#ffffff]  hover:border-[1.36px] border-solid ' >
+                                        <img src="/images/setting.png" alt="" className='ml-[-26px] w-[18px] h-[18px]' />
                                         setting
                                     </li>
                                 </div>
@@ -183,7 +184,7 @@ const SideBar = () => {
 
 
                             {/* avatar */}
-                            <div className=' flex w-[170px] h-[40px] mt-[240.06px] ml-[21px] mb-[44px]  '>
+                            <div className='flex w-[160px] h-[40px] mt-[240.06px]  mb-[44px] lg:ml-[20px]  '>
 
                                 <div className='w-[30px] h-[30px] my-auto'>
                                     <img src="/images/imagee.png" alt="" />
@@ -191,7 +192,7 @@ const SideBar = () => {
                                 <div className=' font-BOLD flex items-center ml-[16px]'>
                                     <p className='lg:text-[17px] md:text-[14px] text:[12px] font-[700]  '>Gavano</p>
                                 </div>
-                                <div className='flex justify-center items-center  w-[15.54px] h-[15.54px] my-auto  ml-[38px]'>
+                                <div className='flex justify-center items-center  w-[15.54px] h-[15.54px] my-auto  ml-[38px] hidden lg:block'>
                                     <img src="/images/more.svg" alt="" className='' />
                                 </div>
 

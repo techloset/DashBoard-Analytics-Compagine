@@ -6,7 +6,7 @@ import Compaign from '../compaign/Compaign'
 
 const Main = () => {
   return (
-    <div className=' xl:w-full xl:ml-[48px]  w-[75%] md:ml-[48px]'>
+    <div className=' xl:w-full xl:ml-[48px] ml-[50px]   w-[68%]'>
 
       <Header />
       <RevenuPage/>

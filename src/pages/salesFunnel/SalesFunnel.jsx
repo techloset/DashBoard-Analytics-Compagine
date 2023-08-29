@@ -83,7 +83,7 @@ const SalesFunnel = () => {
 
 
       {/* devies category */}
-      <div className='w-[50%] mt-[30px] xl:mt-0 mx-auto xl:mx-0 xl:h-[334px]  xl:w-[287px]  xl:bg-[#ffffff] xl:ml-[36px] border-2 border-solid border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)] rounded-[20px]' >
+      <div className='w-[100%] mt-[30px] xl:mt-0 mx-auto xl:mx-0 xl:h-[334px]  xl:w-[287px]  xl:bg-[#ffffff] xl:ml-[36px] border-2 border-solid border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)] rounded-[20px]' >
 
         {/* heading */}
         <p className=' w-[50%] mr-[75px] mx-auto  xl:mx-0 xl:text-[22.4px] xl:font-[700] font-BOLD xl:ml-[30px] xl:mt-[30px] xl:mr-[81px]  mt-[20px] xl:w-[190px] '>Device Category</p>
