@@ -6,7 +6,7 @@ const Compaign = () => {
 
 
       {/* compaign performance pannel */}
-      <div className='xl:w-[759px] w-[100%] xl:h-[326px] h-[265px]  border-2 border-solid rounded-[20px] bg-[#ffffff] border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)]'>
+      <div className='xl:w-[759px] w-[100%] xl:h-[326px] h-[280px]  border-2 border-solid rounded-[20px] bg-[#ffffff] border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)]'>
 
         {/* heading */}
 
@@ -50,8 +50,8 @@ const Compaign = () => {
 
         <div className=' xl:mt-[20px] mt-[20px] flex   xl:ml-[38px] lg:ml-[38px]  items-center justify-evenly    xl:text-[16px] font-[700] font-BOLD'>
 
-          <div className='  xl:mr-[16px] lg:mr-[16px] xl:w-[35px] xl:h-[35px] rounded-[17.5px] bg-[#253174] shadow-3xc xl:flex xl:justify-center xl:items-center'>
-            <img src="/images/insta.svg" alt="" />
+          <div className='  xl:mr-[16px] lg:mr-[16px] xl:w-[35px] xl:h-[35px]  rounded-[17.5px] bg-[#253174] shadow-3xc w-[25px] h-[25px] flex justify-center items-center'>
+            <img src="/images/insta.svg" alt="" className='w-[14px] xl:w-auto'/>
           </div>
 
           <div className=' xl:mr-[137px] lg:mr-[137px] md:ml-[-40px] ml-[-10px] lg:ml-0'>
@@ -79,8 +79,8 @@ const Compaign = () => {
 
         <div className=' flex items-center justify-evenly  xl:ml-[38px] xl:mt-[20px] lg:ml-[38px] mt-[20px]  xl:text-[16px] font-[700] xl:font-BOLD  '>
 
-          <div className=' lg:mr-[16px] xl:mr-[16px] xl:w-[35px] xl:h-[35px] xl:ml-0 ml-[10px]   rounded-[17.5px] bg-[#253174] shadow-3xc xl:flex xl:justify-center xl:items-center '>
-            <img src="/images/tiktok.svg" alt="" className='' />
+          <div className=' lg:mr-[16px] xl:mr-[16px] xl:w-[35px] xl:h-[35px] xl:ml-0 ml-[10px]   rounded-[17.5px] bg-[#253174] shadow-3xc  w-[25px] h-[25px] flex justify-center items-center '>
+            <img src="/images/tiktok.svg" alt="" className='w-[14px] xl:w-auto' />
           </div>
 
           <div className='xl:mr-[171px] lg:mr-[171px] md:ml-[-20px]  xl:w-[55px]   mr-[20px]   lg:ml-0 xl:ml-0 '>
@@ -109,7 +109,7 @@ const Compaign = () => {
         <div className='   xl:flex xl:items-center mt-[20px] xl:ml-[38px]  xl:text-[16px] font-[700] font-BOLD hidden'>
 
           <div className=' xl:mr-[16px]  xl:w-[35px] xl:h-[35px] rounded-[17.5px] bg-[#253174] xl:flex xl:justify-center xl:items-center'>
-            <img src="/images/google.svg" alt="" />
+            <img src="/images/google.svg" alt="" className='' />
           </div>
 
           <div className=' xl:mr-[148px]'>
@@ -143,8 +143,8 @@ const Compaign = () => {
 
         <div className=' flex items-center justify-evenly  lg:ml-[30px]  mt-[20px]   font-[700] font-BOLD xl:hidden '>
 
-          <div className=' lg:mr-[16px]  rounded-[17.5px] bg-[#253174] shadow-3xc '>
-            <img src="/images/google.svg" alt="" className=' ' />
+          <div className=' lg:mr-[16px]  rounded-[17.5px] bg-[#253174] shadow-3xc w-[25px] h-[25px] flex justify-center items-center'>
+            <img src="/images/google.svg" alt="" className='w-[14px] ' />
           </div>
 
           <div className=' lg:mr-[141px] md:ml-[-40px] ml-[-10px] lg:ml-0 '>
@@ -176,7 +176,7 @@ const Compaign = () => {
       <div className=' w-[100%] mx-auto  mt-[30px] xl:mt-0 xl:h-[326px]  xl:w-[287px]  xl:ml-[36px] border-2 bg-[#ffffff] border-solid rounded-[20px] border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)]'>
 
         {/* heading */}
-        <p className=' xl:text-[22.4px] text-[18px] font-[700] font-BOLD xl:ml-[30px] xl:mt-[30px] xl:mr-[111px] xl:w-[146px] xl:mx-0  w-[80%] mx-auto bg-green-500  '>Top Countries</p>
+        <p className=' xl:text-[22.4px] text-[18px] font-[700] font-BOLD xl:ml-[30px] xl:mt-[30px] xl:mr-[111px] xl:w-[146px] xl:mx-0  w-[80%] flex justify-center items-center mx-auto '>Top Countries</p>
 
         {/* united states*/}
         <div className=' flex justify-center items-center  xl:w-[215px] xl:h-[49px] xl:mt-[27px] xl:ml-[30px] xl:mr-[42px] mt-[25px] '>

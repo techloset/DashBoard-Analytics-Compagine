@@ -72,11 +72,11 @@ const SalesFunnel = () => {
 
         </div>
 
-        <img src="/images/Line-red.png" alt="" className="absolute z-10 lg:left-[40.7%]    xl:block top-[39%] xl:left-[43.5%] md:left-[42.3%] " />
-        <div className=" absolute  z-10 rounded-[4px] md:top-[31%] lg:left-[37%] md:left-[39%]  xl:left-[40%] xl:top-[34%] w-[55px] h-[19px] bg-[#1A2B88] xl:px-[8px] xl:py-[2px]  text-white xl:text-[12px] font-[400] ">
+        <img src="/images/Line-red.png" alt="" className="absolute z-10 lg:left-[40.7%]    xl:block top-[39%] xl:left-[43.5%] md:left-[42.3%] left-[40.5%]" />
+        <div className=" absolute  z-10 rounded-[4px] md:top-[31%] top-[31%] lg:left-[37%] md:left-[39%] left-[35%]  xl:left-[40%] xl:top-[34%] w-[55px] h-[19px] bg-[#1A2B88] xl:px-[8px] xl:py-[2px]  text-white xl:text-[12px] font-[400] ">
           <p className="font-BOLD  "> 83,234</p>
         </div>
-        <img src="/images/arrowdoo.svg" alt="" className="absolute  z-20 lg:left-[39.2%]  md:top-[36%] md:left-[41.5%] xl:left-[41.9%] xl:top-[38.5%] "  />
+        <img src="/images/arrowdoo.svg" alt="" className="absolute  z-20 lg:left-[39.2%] top-[36%]  left-[38%]  md:top-[36%] md:left-[41.5%] xl:left-[41.9%] xl:top-[38.5%] "  />
 
       </div>
 
@@ -127,13 +127,13 @@ const SalesFunnel = () => {
 
         {/* tablet */}
 
-        <div className='flex justify-center items-center md:mr-[2px]  xl:w-[215px] xl:mb-[64px]  xl:h-[44px]  xl:ml-[30px] xl:mr-[42px] '>
+        <div className=' mr-[10px]  flex justify-center items-center md:mr-[2px]  xl:w-[215px] xl:mb-[64px]  xl:h-[44px]  xl:ml-[30px] xl:mr-[42px] '>
 
           <div className='flex  justify-center items-center'>
             <div className='bg-[#F2F1FF] xl:w-[44px] xl:h-[44px]  xl:mr-[14px]  flex justify-center items-center '>
-              <img src="/images/device2.png" alt="" className=' xl:w-[20px] xl:h-[20px] w-[20px] ' />
+              <img src="/images/device2.png" alt="" className=' xl:w-[20px] xl:h-[20px] w-[15px] ' />
             </div>
-            <div>
+            <div className="">
               <p className='text-[16px] font-[400] font-Regular text-center  ml-[16px] xl:ml-0 '>Tablet</p>
             </div>
 
