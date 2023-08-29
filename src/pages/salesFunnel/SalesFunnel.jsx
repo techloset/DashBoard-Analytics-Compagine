@@ -86,7 +86,7 @@ const SalesFunnel = () => {
       <div className='w-[50%] mt-[30px] xl:mt-0 mx-auto xl:mx-0 xl:h-[334px]  xl:w-[287px]  xl:bg-[#ffffff] xl:ml-[36px] border-2 border-solid border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)] rounded-[20px]' >
 
         {/* heading */}
-        <p className=' w-[50%] mr-[75px] mx-auto xl:w-auto xl:mx-0 xl:text-[22.4px] xl:font-[700] font-BOLD xl:ml-[30px] xl:mt-[30px] xl:mr-[81px]  mt-[20px]'>Device Category</p>
+        <p className=' w-[50%] mr-[75px] mx-auto  xl:mx-0 xl:text-[22.4px] xl:font-[700] font-BOLD xl:ml-[30px] xl:mt-[30px] xl:mr-[81px]  mt-[20px] xl:w-[190px] '>Device Category</p>
 
         {/* mobile row */}
         <div className='flex justify-center items-center  xl:w-[215px] xl:h-[44px] xl:mt-[41px] md:mt-[30px] mt-[15px] xl:ml-[30px] xl:mr-[42px] '>
