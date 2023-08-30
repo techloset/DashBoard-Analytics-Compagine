@@ -60,7 +60,7 @@ const SalesFunnel = () => {
         </div>
 
         {/* chart */}
-        <div className=' w-[90%] ml-[7%] sm:ml-0 sm:w-auto sm:h-auto   xl:ml-[35px] mt-[29px]  xl:mb-[30px] md:ml-[20px] lg:ml-0 '>
+        <div className=' w-[90%] ml-[7%] sm:ml-0 sm:w-auto sm:h-auto mb-[10px] xl:mb-0   xl:ml-[35px] mt-[29px]  xl:mb-[30px] md:ml-[20px] lg:ml-0 '>
           <Chart
             chartType="AreaChart"
             width="100%"

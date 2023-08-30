@@ -2,7 +2,7 @@ import React from 'react'
 
 const Compaign = () => {
   return (
-    <div className=' flex flex-col xl:flex-row  xl:w-[1082px] xl:flex xl:mt-[30px] mt-[30px] '>
+    <div className=' flex flex-col xl:flex-row  xl:w-[1082px] mb-[20px] xl:mb-0 xl:flex xl:mt-[30px] mt-[30px] '>
 
 
       {/* compaign performance pannel */}
