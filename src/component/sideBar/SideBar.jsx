@@ -10,7 +10,7 @@ const SideBar = () => {
 
     const [navbar, setNavbar] = useState(false)
     return (
-        <div className="xl:w-[266px]   ">
+        <div className="xl:w-[266px]    ">
 
 
 
@@ -184,20 +184,20 @@ const SideBar = () => {
 
 
                             {/* avatar */}
-                            <div className='flex w-[160px] h-[40px] mt-[240.06px]  mb-[44px] lg:ml-[20px]  '>
+                            <div className=' mt-[240px] mb-[30px] flex h-[40px] w-[120px] ml-[47px]   '>
 
-                                <div className='w-[30px] h-[30px] my-auto'>
-                                    <img src="/images/imagee.png" alt="" />
+                                <div className='my-auto mr-[10px]'>
+                                    <img src="/images/imagee.png" alt="" className='w-[55px]'/>
                                 </div>
-                                <div className=' font-BOLD flex items-center ml-[16px]'>
-                                    <p className='lg:text-[17px] md:text-[14px] text:[12px] font-[700]  '>Gavano</p>
+                                <div className=' font-BOLD flex items-center mr-[10px]'>
+                                    <p className=' md:text-[14px] sm:text:[12px] text-[10px] font-[700]  '>Gavano</p>
                                 </div>
-                                <div className='flex justify-center items-center  w-[15.54px] h-[15.54px] my-auto  ml-[38px] hidden lg:block'>
-                                    <img src="/images/more.svg" alt="" className='' />
+                                <div className='flex justify-center items-center   '>
+                                    <img src="/images/more.svg" alt="" className='w-[55px]' />
                                 </div>
 
                             </div>
-                            <button onClick={() => setNavbar(!navbar)} className='w-[70px] mt-[10px] flex justify-center items-center lg:ml-[50px] bg-red-500 hover:bg-green-300'>close</button>
+                            <button onClick={() => setNavbar(!navbar)} className='w-[70px] mt-[10px] flex justify-center items-center ml-[50px] bg-red-500 hover:bg-green-300'>close</button>
                         </div>
 
                     ) : (

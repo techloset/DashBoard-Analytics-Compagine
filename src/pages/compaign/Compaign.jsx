@@ -12,7 +12,7 @@ const Compaign = () => {
 
         <div className='  flex justify-between font-BOLD '>
 
-          <div className='xl:text-[22.4px] font-[700] xl:mt-[30px] xl:ml-[30px] mt-[30px] ml-[25px]  '>Campaign Performance</div>
+          <div className='xl:text-[22.4px] font-[700] xl:mt-[30px] xl:ml-[30px] sm:mt-[30px] mt-[38px] ml-[25px] text-[13px]   sm:text-[16px]  '>Campaign Performance</div>
 
           <div className='flex justify-center items-center font-BOLD  xl:w-[80px] xl:h-[37px] bg-[#f6f6f6] mt-[27px]  mr-[33px] rounded-[12px]  w-[70px] h-[35px] '>
             <p className='xl:text-[14px] font-[700] text-[#1A2B88]  '>See All</p>
@@ -21,25 +21,25 @@ const Compaign = () => {
         </div>
 
         {/* 2nd row */}
-        <div className=' xl:font-Regular xl:flex justify-evenly flex  xl:text-[16px] xl:font-[400] text-[#939393] '>
+        <div className='text-[10px] sm:text-[16px] xl:font-Regular xl:flex  justify-evenly flex  xl:text-[16px] xl:font-[400] text-[#939393] '>
 
-          <div className=' xl:ml-[30px] xl:mt-[27px] xl:mr-[183px] lg:ml-[30px] mt-[27px] lg:mr-[183px]'>
+          <div className=' xl:ml-[30px] xl:mt-[27px] xl:mr-[183px]  mt-[27px] lg:mr-[183px]'>
             <p>Campaign</p>
           </div>
 
-          <div className='xl:mt-[27px] xl:mr-[59px] mt-[27px] lg:mr-[59px]'>
+          <div className='xl:mt-[27px] xl:mr-[59px] mt-[27px] '>
             <p>Impressions</p>
           </div>
 
-          <div className='xl:mt-[27px] xl:mr-[64px] mt-[27px] lg:mr-[64px]'>
+          <div className='xl:mt-[27px] xl:mr-[64px] mt-[27px] '>
             <p>Clicks</p>
           </div>
 
-          <div className='xl:mt-[27px] xl:mr-[94px] mt-[27px] lg:mr-[94px]'>
+          <div className='xl:mt-[27px] xl:mr-[94px] mt-[27px] '>
             <p>CPC</p>
           </div>
 
-          <div className='xl:mt-[27px] xl:mr-[49px] mt-[27px] lg:mr-[49px]'>
+          <div className='xl:mt-[27px] xl:mr-[49px] mt-[27px] '>
             <p>Spend</p>
           </div>
 
@@ -48,58 +48,58 @@ const Compaign = () => {
         <img src="/images/Line-19.png" alt="" className='w-full xl:w-[696px] xl:mt-[18px] xl:ml-[30px] xl:mr-[33px] bg-black ' />
         {/* Google */}
 
-        <div className=' xl:mt-[20px] mt-[20px] flex   xl:ml-[38px] lg:ml-[38px]  items-center justify-evenly    xl:text-[16px] font-[700] font-BOLD'>
+        <div className='text-[10px] sm:text-[16px] xl:mt-[20px] mt-[20px] flex   xl:ml-[38px]   items-center justify-evenly    xl:text-[16px] font-[700] font-BOLD'>
 
-          <div className='  xl:mr-[16px] lg:mr-[16px] xl:w-[35px] xl:h-[35px]  rounded-[17.5px] bg-[#253174] shadow-3xc w-[25px] h-[25px] flex justify-center items-center'>
-            <img src="/images/insta.svg" alt="" className='w-[14px] xl:w-auto'/>
+          <div className='  xl:mr-[16px] lg:mr-[5px] lg:ml-[-10px] xl:ml-0  xl:w-[35px] xl:h-[35px]  rounded-[17.5px] bg-[#253174] shadow-3xc sm:w-[25px] sm:h-[25px] w-[18px] h-[18px] flex justify-center items-center'>
+            <img src="/images/insta.svg" alt="" className='sm:w-[14px] w-[10px]  xl:w-auto' />
           </div>
 
-          <div className=' xl:mr-[137px] lg:mr-[137px] md:ml-[-40px] ml-[-10px] lg:ml-0'>
-            <p className=' xl:w-[86px] '>Google Ads</p>
+          <div className=' xl:mr-[137px] lg:mr-[137px] lg:ml-[-40px] md:ml-[-40px] ml-[-10px] xl:ml-0'>
+            <p className=' xl:w-[86px]  '>Google Ads</p>
           </div>
 
-          <div className=' xl:mr-[97px] lg:mr-[97px]'>
+          <div className=' xl:mr-[97px] '>
             <p className=''>189k</p>
           </div>
 
-          <div className='xl:mr-[74px] lg:mr-[74px]'>
+          <div className='xl:mr-[74px] '>
             <p>9k</p>
           </div>
 
-          <div className='xl:mr-[62px] lg:mr-[62px]'>
+          <div className='xl:mr-[62px] '>
             <p>$8.12</p>
           </div>
 
-          <div className=' xl:mr-[49px] lg:mr-[49px]'>
+          <div className=' xl:mr-[49px] '>
             <p>$56,123.12</p>
           </div>
         </div>
 
         {/* tiktok */}
 
-        <div className=' flex items-center justify-evenly  xl:ml-[38px] xl:mt-[20px] lg:ml-[38px] mt-[20px]  xl:text-[16px] font-[700] xl:font-BOLD  '>
+        <div className='text-[10px] sm:text-[16px] flex items-center justify-evenly  xl:ml-[38px] xl:mt-[20px]  mt-[20px]  xl:text-[16px] font-[700] xl:font-BOLD  '>
 
-          <div className=' lg:mr-[16px] xl:mr-[16px] xl:w-[35px] xl:h-[35px] xl:ml-0 ml-[10px]   rounded-[17.5px] bg-[#253174] shadow-3xc  w-[25px] h-[25px] flex justify-center items-center '>
-            <img src="/images/tiktok.svg" alt="" className='w-[14px] xl:w-auto' />
+          <div className='lg:ml-[-3px] md:ml-[4px] md:mr-[-35px] lg:mr-0  xl:mr-[16px] xl:w-[35px] xl:h-[35px] xl:ml-0 ml-[10px] sm:h-[25px] w-[18px] h-[18px]    rounded-[17.5px] bg-[#253174] shadow-3xc  sm:w-[25px] sm:h-[25px] flex justify-center items-center '>
+            <img src="/images/tiktok.svg" alt="" className='sm:w-[14px] w-[10px] xl:w-auto' />
           </div>
 
-          <div className='xl:mr-[171px] lg:mr-[171px] md:ml-[-20px]  xl:w-[55px]   mr-[20px]   lg:ml-0 xl:ml-0 '>
+          <div className=' xl:mr-[171px] lg:mr-[171px] md:ml-[0px] lg:ml-[-28px]  xl:w-[55px]   mr-[20px]   xl:ml-0 '>
             <p className='     '>Tik Tok</p>
           </div>
 
-          <div className=' xl:mr-[93px] lg:mr-[93px]  '>
+          <div className=' xl:mr-[93px]  '>
             <p >287k</p>
           </div>
 
-          <div className=' xl:mr-[67px] lg:mr-[67px]'>
+          <div className=' xl:mr-[67px] '>
             <p>15k</p>
           </div>
 
-          <div className=' xl:mr-[58px] lg:mr-[58px]'>
+          <div className=' xl:mr-[58px] '>
             <p>$12.12</p>
           </div>
 
-          <div className=' xl:mr-[48px] lg:mr-[48px]'>
+          <div className=' xl:mr-[48px] '>
             <p>$40,123.12</p>
           </div>
         </div>
@@ -140,40 +140,40 @@ const Compaign = () => {
 
         {/* mobile insta */}
 
+        <div className=' text-[10px] sm:text-[16px] xl:mt-[20px] mt-[20px] flex   xl:ml-[38px]   items-center justify-evenly    xl:text-[16px] font-[700] font-BOLD xl:hidden'>
 
-        <div className=' flex items-center justify-evenly  lg:ml-[30px]  mt-[20px]   font-[700] font-BOLD xl:hidden '>
-
-          <div className=' lg:mr-[16px]  rounded-[17.5px] bg-[#253174] shadow-3xc w-[25px] h-[25px] flex justify-center items-center'>
-            <img src="/images/google.svg" alt="" className='w-[14px] ' />
+          <div className='  xl:mr-[16px] lg:mr-[5px] lg:ml-[-6px] ml-[4px] xl:ml-0  xl:w-[35px] xl:h-[35px]  rounded-[17.5px] bg-[#253174] shadow-3xc sm:w-[25px] sm:h-[25px] sm:h-[25px] w-[18px] h-[18px]  flex justify-center items-center'>
+            <img src="/images/google.svg" alt="" className='sm:w-[14px] w-[11px] xl:w-auto' />
           </div>
 
-          <div className=' lg:mr-[141px] md:ml-[-40px] ml-[-10px] lg:ml-0 '>
-            <p className=' '>Instagram</p>
+          <div className=' xl:mr-[137px] lg:mr-[155px] lg:ml-[-40px] mr-[10px] md:ml-[-40px] ml-[-10px] xl:ml-0'>
+            <p className=' xl:w-[86px] '>Instagram</p>
           </div>
 
-          <div className='lg:mr-[93px]  '>
-            <p >156k</p>
+          <div className=' xl:mr-[97px] '>
+            <p className=''>156k</p>
           </div>
 
-          <div className=' lg:mr-[67px]'>
-            <p>12k</p>
+          <div className='xl:mr-[74px] '>
+            <p>12kk</p>
           </div>
 
-          <div className=' lg:mr-[58px]'>
+          <div className='xl:mr-[62px] '>
             <p>$5.12</p>
           </div>
 
-          <div className='  lg:mr-[48px]'>
+          <div className=' xl:mr-[49px] '>
             <p>$39,123.12</p>
           </div>
         </div>
+
 
 
       </div>
 
 
       {/* Top Countries  pannel*/}
-      <div className=' w-[100%] mx-auto  mt-[30px] xl:mt-0 xl:h-[326px]  xl:w-[287px]  xl:ml-[36px] border-2 bg-[#ffffff] border-solid rounded-[20px] border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)]'>
+      <div className='py-5 xl:py-0 w-[100%] mx-auto  mt-[30px] xl:mt-0 xl:h-[326px]  xl:w-[287px]  xl:ml-[36px] border-2 bg-[#ffffff] border-solid rounded-[20px] border-[#ecedf6] shadow-[0_20px_50px_rgba(219,224,248,0.5)]'>
 
         {/* heading */}
         <p className=' xl:text-[22.4px] text-[18px] font-[700] font-BOLD xl:ml-[30px] xl:mt-[30px] xl:mr-[111px] xl:w-[146px] xl:mx-0  w-[80%] flex justify-center items-center mx-auto '>Top Countries</p>
